@@ -9,7 +9,7 @@ module.exports = class PinMessageCommand extends MessageCommand {
 		super(client, {
 			...options,
 			dmPermission: false,
-			name: nameLocalizations['vi'],
+			name: nameLocalizations['en-GB'],
 			nameLocalizations,
 		});
 	}

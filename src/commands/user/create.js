@@ -20,7 +20,7 @@ module.exports = class CreateUserCommand extends UserCommand {
 		super(client, {
 			...options,
 			dmPermission: false,
-			name: nameLocalizations['vi'],
+			name: nameLocalizations['en-GB'],
 			nameLocalizations,
 		});
 	}

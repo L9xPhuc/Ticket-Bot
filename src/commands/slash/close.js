@@ -1,8 +1,9 @@
 const { SlashCommand } = require('@eartharoid/dbf');
+const { ApplicationCommandOptionType } = require('discord.js');
 
-module.exports = class ClaimSlashCommand extends SlashCommand {
+module.exports = class CloseSlashCommand extends SlashCommand {
 	constructor(client, options) {
-		const name = 'claim';
+		const name = 'close';
 		super(client, {
 			...options,
 			description: client.i18n.getMessage(null, `commands.slash.${name}.description`),
@@ -10,6 +11,18 @@ module.exports = class ClaimSlashCommand extends SlashCommand {
 			dmPermission: false,
 			name,
 			nameLocalizations: client.i18n.getAllMessages(`commands.slash.${name}.name`),
+			options: [
+				{
+					name: 'reason',
+					required: false,
+					type: ApplicationCommandOptionType.String,
+				},
+			].map(option => {
+				option.descriptionLocalizations = client.i18n.getAllMessages(`commands.slash.${name}.options.${option.name}.description`);
+				option.description = option.descriptionLocalizations['vi'];
+				option.nameLocalizations = client.i18n.getAllMessages(`commands.slash.${name}.options.${option.name}.name`);
+				return option;
+			}),
 		});
 	}
 
@@ -19,7 +32,6 @@ module.exports = class ClaimSlashCommand extends SlashCommand {
 	async run(interaction) {
 		/** @type {import("client")} */
 		const client = this.client;
-
-		await client.tickets.claim(interaction);
+		await client.tickets.beforeRequestClose(interaction);
 	}
 };

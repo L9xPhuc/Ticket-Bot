@@ -20,6 +20,9 @@
 		"test": "node scripts/check-i18n",
 		"__prepare": "husky install"
 	},
+    "prisma": {
+        "schema": "db/mysql/schema.prisma"
+    },
 	"commitlint": {
 		"extends": [
 			"@commitlint/config-conventional"

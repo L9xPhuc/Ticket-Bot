@@ -166,7 +166,7 @@ module.exports = class TicketManager {
 			} else {
 				settings = {
 					errorColour: 'Red',
-					locale: 'vi',
+					locale: 'en-GB',
 				};
 			}
 			const getMessage = this.client.i18n.getLocale(settings.locale);
