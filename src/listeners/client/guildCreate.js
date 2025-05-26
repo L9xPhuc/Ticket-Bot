@@ -22,7 +22,7 @@ module.exports = class extends Listener {
 			settings = await client.prisma.guild.create({
 				data: {
 					id: guild.id,
-					locale: client.i18n.locales.includes(guild.preferredLocale) ? guild.preferredLocale : 'en-GB',
+					locale: client.i18n.locales.includes(guild.preferredLocale) ? guild.preferredLocale : 'vi',
 				},
 			});
 		}

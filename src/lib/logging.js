@@ -141,7 +141,7 @@ async function logTicketEvent(client, {
 	/** @type {import("discord.js").Guild} */
 	const guild = client.guilds.cache.get(ticket.guild.id);
 	const member = await guild.members.fetch(userId);
-	client.log.info.tickets(`${member.user.tag} ${client.i18n.getMessage('en-GB', `log.ticket.verb.${action}`)} ticket ${target.id}`);
+	client.log.info.tickets(`${member.user.tag} ${client.i18n.getMessage('vi', `log.ticket.verb.${action}`)} ticket ${target.id}`);
 	if (!ticket.guild.logChannel) return;
 	const channel = client.channels.cache.get(ticket.guild.logChannel);
 	if (!channel) return;
@@ -201,7 +201,7 @@ async function logMessageEvent(client, {
 }) {
 	if (!ticket) return;
 	if (executor === undefined) executor = target.member;
-	client.log.info.tickets(`${executor?.user.tag || 'Unknown'} ${client.i18n.getMessage('en-GB', `log.message.verb.${action}`)} message ${target.id}`);
+	client.log.info.tickets(`${executor?.user.tag || 'Unknown'} ${client.i18n.getMessage('vi', `log.message.verb.${action}`)} message ${target.id}`);
 	if (!ticket.guild.logChannel) return;
 	const colour = action === 'update'
 		? 'Purple' : action === 'delete'

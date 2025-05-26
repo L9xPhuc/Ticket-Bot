@@ -1,13 +1,15 @@
+-- CreateTable
 CREATE TABLE `archivedChannels` (
     `channelId` VARCHAR(19) NOT NULL,
     `createdAt` DATETIME(3) NOT NULL DEFAULT CURRENT_TIMESTAMP(3),
     `name` VARCHAR(191) NOT NULL,
     `ticketId` VARCHAR(19) NOT NULL,
 
-    UNIQUE INDEX `archivedChannels_ticketId_channelId_key` (`ticketId`, `channelId`),
+    UNIQUE INDEX `archivedChannels_ticketId_channelId_key`(`ticketId`, `channelId`),
     PRIMARY KEY (`ticketId`, `channelId`)
 ) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 
+-- CreateTable
 CREATE TABLE `archivedMessages` (
     `authorId` VARCHAR(19) NOT NULL,
     `content` TEXT NOT NULL,
@@ -21,68 +23,74 @@ CREATE TABLE `archivedMessages` (
     PRIMARY KEY (`id`)
 ) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 
+-- CreateTable
 CREATE TABLE `archivedRoles` (
-    `colour`CHAR(6) NOT NULL DEFAULT '5865F2',
+    `colour` CHAR(6) NOT NULL DEFAULT '5865F2',
     `createdAt` DATETIME(3) NOT NULL DEFAULT CURRENT_TIMESTAMP(3),
     `name` VARCHAR(191) NOT NULL,
     `roleId` VARCHAR(19) NOT NULL,
     `ticketId` VARCHAR(19) NOT NULL,
 
-    UNIQUE INDEX `archivedRoles_ticketId_roleId_key` (`ticketId`, `roleId`),
+    UNIQUE INDEX `archivedRoles_ticketId_roleId_key`(`ticketId`, `roleId`),
     PRIMARY KEY (`ticketId`, `roleId`)
 ) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 
+-- CreateTable
 CREATE TABLE `archivedUsers` (
     `avatar` VARCHAR(191) NULL,
-    `bot` BOOLEAN NOT NULL DEFAULT CURRENT_TIMESTAMP(3),
+    `bot` BOOLEAN NOT NULL DEFAULT false,
     `createdAt` DATETIME(3) NOT NULL DEFAULT CURRENT_TIMESTAMP(3),
     `discriminator` CHAR(4) NULL,
     `displayName` TEXT NULL,
     `roleId` VARCHAR(19) NULL,
     `ticketId` VARCHAR(19) NOT NULL,
+    `userId` VARCHAR(19) NOT NULL,
     `username` TEXT NULL,
 
-    UNIQUE INDEX `archivedUsers_ticketId_userId_key` (`ticketId`, `userId`),
+    UNIQUE INDEX `archivedUsers_ticketId_userId_key`(`ticketId`, `userId`),
     PRIMARY KEY (`ticketId`, `userId`)
 ) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 
+-- CreateTable
 CREATE TABLE `categories` (
     `channelName` VARCHAR(191) NOT NULL,
     `claiming` BOOLEAN NOT NULL DEFAULT false,
     `createdAt` DATETIME(3) NOT NULL DEFAULT CURRENT_TIMESTAMP(3),
     `cooldown` INTEGER NULL,
     `customTopic` VARCHAR(191) NULL,
-    `description` VARCHAR (191) NOT NULL,
-    `discordCategory` VARCHAR (19) NOT NULL,
+    `description` VARCHAR(191) NOT NULL,
+    `discordCategory` VARCHAR(19) NOT NULL,
     `emoji` VARCHAR(191) NOT NULL,
     `enableFeedback` BOOLEAN NOT NULL DEFAULT false,
     `guildId` VARCHAR(19) NOT NULL,
-    `Id` INTEGER NOT NULL AUTO_INCREMENT,
+    `id` INTEGER NOT NULL AUTO_INCREMENT,
     `image` VARCHAR(191) NULL,
     `memberLimit` INTEGER NOT NULL DEFAULT 1,
     `name` VARCHAR(191) NOT NULL,
     `openingMessage` TEXT NOT NULL,
     `pingRoles` JSON NOT NULL,
-    `rateLimit` INTEGER NULL,
+    `ratelimit` INTEGER NULL,
     `requiredRoles` JSON NOT NULL,
     `requireTopic` BOOLEAN NOT NULL DEFAULT false,
     `staffRoles` JSON NOT NULL,
     `totalLimit` INTEGER NOT NULL DEFAULT 50,
 
-    PRIMARY KEY (`Id`)
+    PRIMARY KEY (`id`)
 ) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 
+-- CreateTable
 CREATE TABLE `feedback` (
     `comment` TEXT NULL,
     `createdAt` DATETIME(3) NOT NULL DEFAULT CURRENT_TIMESTAMP(3),
     `guildId` VARCHAR(19) NOT NULL,
-    `rating` INTEGER NULL NULL,
+    `rating` INTEGER NOT NULL,
     `ticketId` VARCHAR(19) NOT NULL,
-    `userId` VARCHAR(19) NOT NULL,
+    `userId` VARCHAR(19) NULL,
 
     PRIMARY KEY (`ticketId`)
 ) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 
+-- CreateTable
 CREATE TABLE `guilds` (
     `autoClose` INTEGER NOT NULL DEFAULT 43200000,
     `autoTag` JSON NOT NULL,
@@ -93,20 +101,21 @@ CREATE TABLE `guilds` (
     `createdAt` DATETIME(3) NOT NULL DEFAULT CURRENT_TIMESTAMP(3),
     `errorColour` VARCHAR(191) NOT NULL DEFAULT 'Red',
     `footer` VARCHAR(191) NULL DEFAULT 'Discord Tickets by ZenKho',
-    `Id` VARCHAR(19) NOT NULL,
+    `id` VARCHAR(19) NOT NULL,
     `locale` VARCHAR(191) NOT NULL DEFAULT 'vi',
-    `logCannel` VARCHAR(19) NULL,
+    `logChannel` VARCHAR(19) NULL,
     `primaryColour` VARCHAR(191) NOT NULL DEFAULT '#009999',
     `staleAfter` INTEGER NULL,
     `successColour` VARCHAR(191) NOT NULL DEFAULT 'Green',
     `workingHours` JSON NOT NULL,
 
-    PRIMARY KEY (`Id`)
+    PRIMARY KEY (`id`)
 ) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 
+-- CreateTable
 CREATE TABLE `questions` (
-    `createdAt` VARCHAR(191) NOT NULL DEFAULT CURRENT_TIMESTAMP(3),
-    `Id` VARCHAR(191) NOT NULL,
+    `createdAt` DATETIME(3) NOT NULL DEFAULT CURRENT_TIMESTAMP(3),
+    `id` VARCHAR(191) NOT NULL,
     `categoryId` INTEGER NOT NULL,
     `label` VARCHAR(45) NOT NULL,
     `maxLength` INTEGER NULL DEFAULT 4000,
@@ -122,6 +131,7 @@ CREATE TABLE `questions` (
     PRIMARY KEY (`id`)
 ) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 
+-- CreateTable
 CREATE TABLE `questionAnswers` (
     `createdAt` DATETIME(3) NOT NULL DEFAULT CURRENT_TIMESTAMP(3),
     `id` INTEGER NOT NULL AUTO_INCREMENT,
@@ -133,6 +143,7 @@ CREATE TABLE `questionAnswers` (
     PRIMARY KEY (`id`)
 ) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 
+-- CreateTable
 CREATE TABLE `tags` (
     `content` TEXT NOT NULL,
     `createdAt` DATETIME(3) NOT NULL DEFAULT CURRENT_TIMESTAMP(3),
@@ -145,11 +156,12 @@ CREATE TABLE `tags` (
     PRIMARY KEY (`id`)
 ) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 
+-- CreateTable
 CREATE TABLE `tickets` (
     `categoryId` INTEGER NULL,
     `claimedById` VARCHAR(19) NULL,
     `closedAt` DATETIME(3) NULL,
-    `closeById` DATETIME(3) NULL,
+    `closedById` VARCHAR(19) NULL,
     `closedReason` TEXT NULL,
     `createdAt` DATETIME(3) NOT NULL DEFAULT CURRENT_TIMESTAMP(3),
     `createdById` VARCHAR(19) NOT NULL,
@@ -164,7 +176,7 @@ CREATE TABLE `tickets` (
     `openingMessageId` VARCHAR(19) NOT NULL,
     `pinnedMessageIds` JSON NOT NULL,
     `priority` ENUM('LOW', 'MEDIUM', 'HIGH') NULL,
-    `refercesMessageId` VARCHAR(19) NULL,
+    `referencesMessageId` VARCHAR(19) NULL,
     `referencesTicketId` VARCHAR(19) NULL,
     `topic` TEXT NULL,
 
@@ -172,6 +184,7 @@ CREATE TABLE `tickets` (
     PRIMARY KEY (`id`)
 ) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 
+-- CreateTable
 CREATE TABLE `users` (
     `createdAt` DATETIME(3) NOT NULL DEFAULT CURRENT_TIMESTAMP(3),
     `id` VARCHAR(19) NOT NULL,
