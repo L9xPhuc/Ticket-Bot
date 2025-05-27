@@ -1,0 +1,1233 @@
+
+	❯ Discord Tickets by eartharoid
+	❯ Powered by leekslazylogger v6.0.0
+	❯ Log level "info"
+	❯ Node.js v20.19.2 on linux
+	❯ Tuesday, 27 May 2025 at 11:15 AM (Asia/Saigon) -->
+
+[2025-05-27 11:15:42] [INFO] (GLOBAL) @src/client.js:73:12 0 guilds are banned
+[2025-05-27 11:15:42] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "category" autocompleter
+[2025-05-27 11:15:42] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "references" autocompleter
+[2025-05-27 11:15:42] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "tag" autocompleter
+[2025-05-27 11:15:42] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "ticket" autocompleter
+[2025-05-27 11:15:42] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "claim" button
+[2025-05-27 11:15:42] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "close" button
+[2025-05-27 11:15:42] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "create" button
+[2025-05-27 11:15:42] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "edit" button
+[2025-05-27 11:15:42] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "transcript" button
+[2025-05-27 11:15:42] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "unclaim" button
+[2025-05-27 11:15:42] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "Create ticket from message" message command
+[2025-05-27 11:15:42] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "Pin message" message command
+[2025-05-27 11:15:42] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "add" slash command
+[2025-05-27 11:15:42] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "claim" slash command
+[2025-05-27 11:15:42] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "close" slash command
+[2025-05-27 11:15:42] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "force-close" slash command
+[2025-05-27 11:15:42] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "help" slash command
+[2025-05-27 11:15:42] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "move" slash command
+[2025-05-27 11:15:42] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "new" slash command
+[2025-05-27 11:15:42] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "priority" slash command
+[2025-05-27 11:15:42] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "release" slash command
+[2025-05-27 11:15:42] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "remove" slash command
+[2025-05-27 11:15:42] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "rename" slash command
+[2025-05-27 11:15:42] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "tag" slash command
+[2025-05-27 11:15:42] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "tickets" slash command
+[2025-05-27 11:15:42] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "topic" slash command
+[2025-05-27 11:15:42] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "transcript" slash command
+[2025-05-27 11:15:42] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "transfer" slash command
+[2025-05-27 11:15:42] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "Create ticket for user" user command
+[2025-05-27 11:15:42] [INFO] (MENUS) @src/listeners/menus/componentLoad.js:13:24 Loaded "create" menu
+[2025-05-27 11:15:42] [INFO] (MODALS) @src/listeners/modals/componentLoad.js:13:24 Loaded "feedback" modal
+[2025-05-27 11:15:42] [INFO] (MODALS) @src/listeners/modals/componentLoad.js:13:24 Loaded "questions" modal
+[2025-05-27 11:15:42] [INFO] (MODALS) @src/listeners/modals/componentLoad.js:13:24 Loaded "topic" modal
+[2025-05-27 11:15:43] [SUCCESS] (GLOBAL) @src/listeners/client/ready.js:33:14 Connected to Discord as "Ticket#0394" over 1 shards
+[2025-05-27 11:15:43] [INFO] (PRISMA) @src/client.js:131:46 quaint::pooled Starting a mysql pool with 17 connections.
+[2025-05-27 11:15:43] [SUCCESS] (HTTP) @src/http.js:191:27 Listening at http://127.0.0.1:8169
+[2025-05-27 11:15:43] [INFO] (GLOBAL) @src/lib/sync.js:77:13 Cached ticket count of 0 categories (0 open tickets)
+[2025-05-27 11:15:43] [INFO] (GLOBAL) @src/lib/sync.js:78:13 Loaded 0 active cooldowns
+[2025-05-27 11:15:43] [INFO] (GLOBAL) @src/lib/sync.js:79:13 Closed 0 deleted tickets
+[2025-05-27 11:15:44] [INFO] (GLOBAL) @src/lib/updates.js:8:13 Checking for updates...
+[2025-05-27 11:15:44] [INFO] (GLOBAL) @src/lib/updates.js:26:16 No updates available
+[2025-05-27 11:15:45] [SUCCESS] (GLOBAL) @src/lib/stats.js:69:14 Posted client stats
+[2025-05-27 11:15:52] [NOTICE] (GLOBAL) @src/index.js:66:6 Received SIGINT
+
+	❯ Discord Tickets by eartharoid
+	❯ Powered by leekslazylogger v6.0.0
+	❯ Log level "info"
+	❯ Node.js v20.19.2 on linux
+	❯ Tuesday, 27 May 2025 at 15:11 PM (Asia/Saigon) -->
+
+[2025-05-27 15:11:10] [INFO] (GLOBAL) @src/client.js:73:12 0 guilds are banned
+[2025-05-27 15:11:10] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "category" autocompleter
+[2025-05-27 15:11:10] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "references" autocompleter
+[2025-05-27 15:11:10] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "tag" autocompleter
+[2025-05-27 15:11:10] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "ticket" autocompleter
+[2025-05-27 15:11:10] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "claim" button
+[2025-05-27 15:11:10] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "close" button
+[2025-05-27 15:11:10] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "create" button
+[2025-05-27 15:11:10] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "edit" button
+[2025-05-27 15:11:10] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "transcript" button
+[2025-05-27 15:11:10] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "unclaim" button
+[2025-05-27 15:11:10] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "Create ticket from message" message command
+[2025-05-27 15:11:10] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "Pin message" message command
+[2025-05-27 15:11:10] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "add" slash command
+[2025-05-27 15:11:10] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "claim" slash command
+[2025-05-27 15:11:10] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "close" slash command
+[2025-05-27 15:11:10] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "force-close" slash command
+[2025-05-27 15:11:10] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "help" slash command
+[2025-05-27 15:11:10] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "move" slash command
+[2025-05-27 15:11:10] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "new" slash command
+[2025-05-27 15:11:10] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "priority" slash command
+[2025-05-27 15:11:10] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "release" slash command
+[2025-05-27 15:11:10] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "remove" slash command
+[2025-05-27 15:11:10] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "rename" slash command
+[2025-05-27 15:11:10] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "tag" slash command
+[2025-05-27 15:11:10] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "tickets" slash command
+[2025-05-27 15:11:10] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "topic" slash command
+[2025-05-27 15:11:10] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "transcript" slash command
+[2025-05-27 15:11:10] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "transfer" slash command
+[2025-05-27 15:11:10] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "Create ticket for user" user command
+[2025-05-27 15:11:10] [INFO] (MENUS) @src/listeners/menus/componentLoad.js:13:24 Loaded "create" menu
+[2025-05-27 15:11:10] [INFO] (MODALS) @src/listeners/modals/componentLoad.js:13:24 Loaded "feedback" modal
+[2025-05-27 15:11:10] [INFO] (MODALS) @src/listeners/modals/componentLoad.js:13:24 Loaded "questions" modal
+[2025-05-27 15:11:10] [INFO] (MODALS) @src/listeners/modals/componentLoad.js:13:24 Loaded "topic" modal
+[2025-05-27 15:11:12] [SUCCESS] (GLOBAL) @src/listeners/client/ready.js:33:14 Connected to Discord as "Ticket#0394" over 1 shards
+[2025-05-27 15:11:12] [INFO] (PRISMA) @src/client.js:131:46 quaint::pooled Starting a mysql pool with 17 connections.
+[2025-05-27 15:11:12] [SUCCESS] (HTTP) @src/http.js:191:27 Listening at http://127.0.0.1:8169
+[2025-05-27 15:11:12] [INFO] (GLOBAL) @src/lib/sync.js:77:13 Cached ticket count of 0 categories (0 open tickets)
+[2025-05-27 15:11:12] [INFO] (GLOBAL) @src/lib/sync.js:78:13 Loaded 0 active cooldowns
+[2025-05-27 15:11:12] [INFO] (GLOBAL) @src/lib/sync.js:79:13 Closed 0 deleted tickets
+[2025-05-27 15:11:12] [INFO] (GLOBAL) @src/lib/updates.js:8:13 Checking for updates...
+[2025-05-27 15:11:13] [INFO] (GLOBAL) @src/lib/updates.js:26:16 No updates available
+[2025-05-27 15:11:13] [SUCCESS] (GLOBAL) @src/lib/stats.js:69:14 Posted client stats
+[2025-05-27 15:11:56] [NOTICE] (GLOBAL) @src/index.js:66:6 Received SIGINT
+
+	❯ Discord Tickets by eartharoid
+	❯ Powered by leekslazylogger v6.0.0
+	❯ Log level "info"
+	❯ Node.js v20.19.2 on linux
+	❯ Tuesday, 27 May 2025 at 15:11 PM (Asia/Saigon) -->
+
+[2025-05-27 15:11:57] [INFO] (GLOBAL) @src/client.js:73:12 0 guilds are banned
+[2025-05-27 15:11:57] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "category" autocompleter
+[2025-05-27 15:11:57] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "references" autocompleter
+[2025-05-27 15:11:57] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "tag" autocompleter
+[2025-05-27 15:11:57] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "ticket" autocompleter
+[2025-05-27 15:11:57] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "claim" button
+[2025-05-27 15:11:57] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "close" button
+[2025-05-27 15:11:57] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "create" button
+[2025-05-27 15:11:57] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "edit" button
+[2025-05-27 15:11:57] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "transcript" button
+[2025-05-27 15:11:57] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "unclaim" button
+[2025-05-27 15:11:57] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "Create ticket from message" message command
+[2025-05-27 15:11:57] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "Pin message" message command
+[2025-05-27 15:11:57] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "add" slash command
+[2025-05-27 15:11:57] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "claim" slash command
+[2025-05-27 15:11:57] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "close" slash command
+[2025-05-27 15:11:57] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "force-close" slash command
+[2025-05-27 15:11:57] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "help" slash command
+[2025-05-27 15:11:57] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "move" slash command
+[2025-05-27 15:11:57] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "new" slash command
+[2025-05-27 15:11:57] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "priority" slash command
+[2025-05-27 15:11:57] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "release" slash command
+[2025-05-27 15:11:57] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "remove" slash command
+[2025-05-27 15:11:57] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "rename" slash command
+[2025-05-27 15:11:57] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "tag" slash command
+[2025-05-27 15:11:57] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "tickets" slash command
+[2025-05-27 15:11:57] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "topic" slash command
+[2025-05-27 15:11:57] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "transcript" slash command
+[2025-05-27 15:11:57] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "transfer" slash command
+[2025-05-27 15:11:57] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "Create ticket for user" user command
+[2025-05-27 15:11:57] [INFO] (MENUS) @src/listeners/menus/componentLoad.js:13:24 Loaded "create" menu
+[2025-05-27 15:11:57] [INFO] (MODALS) @src/listeners/modals/componentLoad.js:13:24 Loaded "feedback" modal
+[2025-05-27 15:11:57] [INFO] (MODALS) @src/listeners/modals/componentLoad.js:13:24 Loaded "questions" modal
+[2025-05-27 15:11:57] [INFO] (MODALS) @src/listeners/modals/componentLoad.js:13:24 Loaded "topic" modal
+[2025-05-27 15:11:59] [SUCCESS] (GLOBAL) @src/listeners/client/ready.js:33:14 Connected to Discord as "Ticket#0394" over 1 shards
+[2025-05-27 15:11:59] [INFO] (PRISMA) @src/client.js:131:46 quaint::pooled Starting a mysql pool with 17 connections.
+[2025-05-27 15:11:59] [INFO] (GLOBAL) @src/lib/sync.js:77:13 Cached ticket count of 0 categories (0 open tickets)
+[2025-05-27 15:11:59] [INFO] (GLOBAL) @src/lib/sync.js:78:13 Loaded 0 active cooldowns
+[2025-05-27 15:11:59] [INFO] (GLOBAL) @src/lib/sync.js:79:13 Closed 0 deleted tickets
+[2025-05-27 15:11:59] [SUCCESS] (HTTP) @src/http.js:191:27 Listening at http://127.0.0.1:8169
+[2025-05-27 15:11:59] [INFO] (HTTP) @src/http.js:146:21 req-2 127.0.0.1 GET /api/users/@me -+> 200 in 2.51ms
+[2025-05-27 15:11:59] [INFO] (HTTP) @src/http.js:146:21 req-3 127.0.0.1 GET /api/client -+> 200 in 58.91ms
+[2025-05-27 15:11:59] [INFO] (HTTP) @src/http.js:146:21 req-5 127.0.0.1 GET /api/users/@me -+> 200 in 0.38ms
+[2025-05-27 15:11:59] [INFO] (HTTP) @src/http.js:146:21 req-7 127.0.0.1 GET /api/client -+> 200 in 0.83ms
+[2025-05-27 15:11:59] [INFO] (GLOBAL) @src/lib/updates.js:8:13 Checking for updates...
+[2025-05-27 15:12:00] [INFO] (HTTP) @src/http.js:146:21 req-6 127.0.0.1 GET /api/admin/guilds -+> 200 in 651.96ms
+[2025-05-27 15:12:00] [INFO] (GLOBAL) @src/lib/updates.js:26:16 No updates available
+[2025-05-27 15:12:00] [SUCCESS] (GLOBAL) @src/lib/stats.js:69:14 Posted client stats
+[2025-05-27 15:12:06] [INFO] (HTTP) @src/http.js:146:21 req-c 127.0.0.1 GET /api/users/@me -+> 200 in 0.47ms
+[2025-05-27 15:12:06] [INFO] (HTTP) @src/http.js:146:21 req-d 127.0.0.1 GET /api/client -+> 200 in 0.25ms
+[2025-05-27 15:12:06] [ERROR] (HTTP) @src/http.js:198:20 SvelteKit 19710cc7fc9 Error: Not found: /.well-known/appspecific/com.chrome.devtools.json
+[2025-05-27 15:12:57] [INFO] (COMMANDS) @src/listeners/commands/run.js:21:24 l9xphuc used the "help" slash command
+[2025-05-27 15:12:57] [WARN] (GLOBAL) @src/index.js:81:38 Warning: Supplying "ephemeral" for interaction response options is deprecated. Utilize flags instead.
+    at ChatInputCommandInteraction.deferReply (/home/zenkho/Documents/Remake/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:98:17)
+    at ClaimSlashCommand.run (/home/zenkho/Documents/Remake/src/commands/slash/help.js:26:21)
+    at CommandsModule.<anonymous> (/home/zenkho/Documents/Remake/node_modules/@eartharoid/dbf/dist/commands/CommandsModule.js:72:35)
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/zenkho/Documents/Remake/node_modules/@eartharoid/dbf/dist/commands/CommandsModule.js:28:58)
+[2025-05-27 15:15:45] [NOTICE] (GLOBAL) @src/index.js:66:6 Received SIGINT
+
+	❯ Discord Tickets by eartharoid
+	❯ Powered by leekslazylogger v6.0.0
+	❯ Log level "info"
+	❯ Node.js v20.19.2 on linux
+	❯ Tuesday, 27 May 2025 at 15:15 PM (Asia/Saigon) -->
+
+[2025-05-27 15:15:46] [INFO] (GLOBAL) @src/client.js:73:12 0 guilds are banned
+[2025-05-27 15:15:46] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "category" autocompleter
+[2025-05-27 15:15:46] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "references" autocompleter
+[2025-05-27 15:15:46] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "tag" autocompleter
+[2025-05-27 15:15:46] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "ticket" autocompleter
+[2025-05-27 15:15:46] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "claim" button
+[2025-05-27 15:15:46] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "close" button
+[2025-05-27 15:15:46] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "create" button
+[2025-05-27 15:15:46] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "edit" button
+[2025-05-27 15:15:46] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "transcript" button
+[2025-05-27 15:15:46] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "unclaim" button
+[2025-05-27 15:15:46] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "Create ticket from message" message command
+[2025-05-27 15:15:46] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "Pin message" message command
+[2025-05-27 15:15:46] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "add" slash command
+[2025-05-27 15:15:46] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "claim" slash command
+[2025-05-27 15:15:46] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "close" slash command
+[2025-05-27 15:15:46] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "force-close" slash command
+[2025-05-27 15:15:46] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "help" slash command
+[2025-05-27 15:15:46] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "move" slash command
+[2025-05-27 15:15:46] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "new" slash command
+[2025-05-27 15:15:46] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "priority" slash command
+[2025-05-27 15:15:46] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "release" slash command
+[2025-05-27 15:15:46] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "remove" slash command
+[2025-05-27 15:15:46] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "rename" slash command
+[2025-05-27 15:15:46] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "tag" slash command
+[2025-05-27 15:15:46] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "tickets" slash command
+[2025-05-27 15:15:46] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "topic" slash command
+[2025-05-27 15:15:46] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "transcript" slash command
+[2025-05-27 15:15:46] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "transfer" slash command
+[2025-05-27 15:15:46] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "Create ticket for user" user command
+[2025-05-27 15:15:46] [INFO] (MENUS) @src/listeners/menus/componentLoad.js:13:24 Loaded "create" menu
+[2025-05-27 15:15:46] [INFO] (MODALS) @src/listeners/modals/componentLoad.js:13:24 Loaded "feedback" modal
+[2025-05-27 15:15:46] [INFO] (MODALS) @src/listeners/modals/componentLoad.js:13:24 Loaded "questions" modal
+[2025-05-27 15:15:46] [INFO] (MODALS) @src/listeners/modals/componentLoad.js:13:24 Loaded "topic" modal
+[2025-05-27 15:15:48] [SUCCESS] (GLOBAL) @src/listeners/client/ready.js:33:14 Connected to Discord as "Ticket#0394" over 1 shards
+[2025-05-27 15:15:48] [INFO] (PRISMA) @src/client.js:131:46 quaint::pooled Starting a mysql pool with 17 connections.
+[2025-05-27 15:15:48] [INFO] (GLOBAL) @src/lib/sync.js:77:13 Cached ticket count of 0 categories (0 open tickets)
+[2025-05-27 15:15:48] [INFO] (GLOBAL) @src/lib/sync.js:78:13 Loaded 0 active cooldowns
+[2025-05-27 15:15:48] [INFO] (GLOBAL) @src/lib/sync.js:79:13 Closed 0 deleted tickets
+[2025-05-27 15:15:48] [SUCCESS] (HTTP) @src/http.js:191:27 Listening at http://127.0.0.1:8169
+[2025-05-27 15:15:48] [INFO] (GLOBAL) @src/lib/updates.js:8:13 Checking for updates...
+[2025-05-27 15:15:49] [INFO] (GLOBAL) @src/lib/updates.js:26:16 No updates available
+[2025-05-27 15:15:49] [WARN] (GLOBAL) @src/lib/stats.js:72:14 The following error is not important and can be safely ignored
+[2025-05-27 15:15:49] [ERROR] (GLOBAL) @src/lib/stats.js:75:15 An error occurred whilst posting stats: {
+  status: 500,
+  error: 'ValidationError: "guilds[0].messages" must be a number'
+}
+[2025-05-27 15:15:51] [INFO] (COMMANDS) @src/listeners/commands/run.js:21:24 l9xphuc used the "help" slash command
+[2025-05-27 15:15:51] [WARN] (GLOBAL) @src/index.js:81:38 Warning: Supplying "ephemeral" for interaction response options is deprecated. Utilize flags instead.
+    at ChatInputCommandInteraction.deferReply (/home/zenkho/Documents/Remake/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:98:17)
+    at ClaimSlashCommand.run (/home/zenkho/Documents/Remake/src/commands/slash/help.js:26:21)
+    at CommandsModule.<anonymous> (/home/zenkho/Documents/Remake/node_modules/@eartharoid/dbf/dist/commands/CommandsModule.js:72:35)
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/zenkho/Documents/Remake/node_modules/@eartharoid/dbf/dist/commands/CommandsModule.js:28:58)
+[2025-05-27 15:15:52] [ERROR] (BUTTONS) @src/lib/error.js:22:19 V683574b81
+[2025-05-27 15:15:52] [ERROR] (COMMANDS) @src/lib/error.js:31:20 "help" command execution error: CombinedPropertyError (1)
+  Received one or more errors
+
+  input[0]
+  | CombinedPropertyError (1)
+  |   Received one or more errors
+  | 
+  |   input.name
+  |   | ValidationError > s.string()
+  |   |   Expected a string primitive
+  |   | 
+  |   |   Received:
+  |   |   | undefined
+
+    at _ArrayValidator.handle (/home/zenkho/Documents/Remake/node_modules/@sapphire/shapeshift/dist/cjs/index.cjs:1254:70)
+    at _ArrayValidator.parse (/home/zenkho/Documents/Remake/node_modules/@sapphire/shapeshift/dist/cjs/index.cjs:972:90)
+    at ExtendedEmbedBuilder.spliceFields (/home/zenkho/Documents/Remake/node_modules/@discordjs/builders/dist/index.js:271:31)
+    at ExtendedEmbedBuilder.setFields (/home/zenkho/Documents/Remake/node_modules/@discordjs/builders/dist/index.js:287:10)
+    at ClaimSlashCommand.run (/home/zenkho/Documents/Remake/src/commands/slash/help.js:72:7)
+[2025-05-27 15:16:09] [NOTICE] (GLOBAL) @src/index.js:66:6 Received SIGINT
+
+	❯ Discord Tickets by eartharoid
+	❯ Powered by leekslazylogger v6.0.0
+	❯ Log level "info"
+	❯ Node.js v20.19.2 on linux
+	❯ Tuesday, 27 May 2025 at 15:16 PM (Asia/Saigon) -->
+
+[2025-05-27 15:16:10] [INFO] (GLOBAL) @src/client.js:73:12 0 guilds are banned
+[2025-05-27 15:16:10] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "category" autocompleter
+[2025-05-27 15:16:10] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "references" autocompleter
+[2025-05-27 15:16:10] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "tag" autocompleter
+[2025-05-27 15:16:10] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "ticket" autocompleter
+[2025-05-27 15:16:10] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "claim" button
+[2025-05-27 15:16:10] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "close" button
+[2025-05-27 15:16:10] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "create" button
+[2025-05-27 15:16:10] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "edit" button
+[2025-05-27 15:16:10] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "transcript" button
+[2025-05-27 15:16:10] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "unclaim" button
+[2025-05-27 15:16:10] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "Create ticket from message" message command
+[2025-05-27 15:16:10] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "Pin message" message command
+[2025-05-27 15:16:10] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "add" slash command
+[2025-05-27 15:16:10] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "claim" slash command
+[2025-05-27 15:16:10] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "close" slash command
+[2025-05-27 15:16:10] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "force-close" slash command
+[2025-05-27 15:16:10] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "help" slash command
+[2025-05-27 15:16:10] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "move" slash command
+[2025-05-27 15:16:10] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "new" slash command
+[2025-05-27 15:16:10] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "priority" slash command
+[2025-05-27 15:16:10] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "release" slash command
+[2025-05-27 15:16:10] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "remove" slash command
+[2025-05-27 15:16:10] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "rename" slash command
+[2025-05-27 15:16:10] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "tag" slash command
+[2025-05-27 15:16:10] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "tickets" slash command
+[2025-05-27 15:16:10] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "topic" slash command
+[2025-05-27 15:16:10] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "transcript" slash command
+[2025-05-27 15:16:10] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "transfer" slash command
+[2025-05-27 15:16:10] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "Create ticket for user" user command
+[2025-05-27 15:16:10] [INFO] (MENUS) @src/listeners/menus/componentLoad.js:13:24 Loaded "create" menu
+[2025-05-27 15:16:10] [INFO] (MODALS) @src/listeners/modals/componentLoad.js:13:24 Loaded "feedback" modal
+[2025-05-27 15:16:10] [INFO] (MODALS) @src/listeners/modals/componentLoad.js:13:24 Loaded "questions" modal
+[2025-05-27 15:16:10] [INFO] (MODALS) @src/listeners/modals/componentLoad.js:13:24 Loaded "topic" modal
+[2025-05-27 15:16:11] [SUCCESS] (GLOBAL) @src/listeners/client/ready.js:33:14 Connected to Discord as "Ticket#0394" over 1 shards
+[2025-05-27 15:16:11] [INFO] (PRISMA) @src/client.js:131:46 quaint::pooled Starting a mysql pool with 17 connections.
+[2025-05-27 15:16:11] [INFO] (GLOBAL) @src/lib/sync.js:77:13 Cached ticket count of 0 categories (0 open tickets)
+[2025-05-27 15:16:11] [INFO] (GLOBAL) @src/lib/sync.js:78:13 Loaded 0 active cooldowns
+[2025-05-27 15:16:11] [INFO] (GLOBAL) @src/lib/sync.js:79:13 Closed 0 deleted tickets
+[2025-05-27 15:16:11] [SUCCESS] (HTTP) @src/http.js:191:27 Listening at http://127.0.0.1:8169
+[2025-05-27 15:16:12] [INFO] (GLOBAL) @src/lib/updates.js:8:13 Checking for updates...
+[2025-05-27 15:16:13] [INFO] (COMMANDS) @src/listeners/commands/run.js:21:24 l9xphuc used the "help" slash command
+[2025-05-27 15:16:13] [WARN] (GLOBAL) @src/index.js:81:38 Warning: Supplying "ephemeral" for interaction response options is deprecated. Utilize flags instead.
+    at ChatInputCommandInteraction.deferReply (/home/zenkho/Documents/Remake/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:98:17)
+    at ClaimSlashCommand.run (/home/zenkho/Documents/Remake/src/commands/slash/help.js:26:21)
+    at CommandsModule.<anonymous> (/home/zenkho/Documents/Remake/node_modules/@eartharoid/dbf/dist/commands/CommandsModule.js:72:35)
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/zenkho/Documents/Remake/node_modules/@eartharoid/dbf/dist/commands/CommandsModule.js:28:58)
+[2025-05-27 15:16:13] [INFO] (GLOBAL) @src/lib/updates.js:26:16 No updates available
+[2025-05-27 15:16:13] [WARN] (GLOBAL) @src/lib/stats.js:72:14 The following error is not important and can be safely ignored
+[2025-05-27 15:16:13] [ERROR] (GLOBAL) @src/lib/stats.js:75:15 An error occurred whilst posting stats: {
+  status: 500,
+  error: 'ValidationError: "guilds[0].messages" must be a number'
+}
+[2025-05-27 15:26:44] [NOTICE] (GLOBAL) @src/index.js:66:6 Received SIGINT
+
+	❯ Discord Tickets by eartharoid
+	❯ Powered by leekslazylogger v6.0.0
+	❯ Log level "info"
+	❯ Node.js v20.19.2 on linux
+	❯ Tuesday, 27 May 2025 at 15:26 PM (Asia/Saigon) -->
+
+[2025-05-27 15:26:45] [INFO] (GLOBAL) @src/client.js:73:12 0 guilds are banned
+[2025-05-27 15:26:45] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "category" autocompleter
+[2025-05-27 15:26:45] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "references" autocompleter
+[2025-05-27 15:26:45] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "tag" autocompleter
+[2025-05-27 15:26:45] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "ticket" autocompleter
+[2025-05-27 15:26:45] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "claim" button
+[2025-05-27 15:26:45] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "close" button
+[2025-05-27 15:26:45] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "create" button
+[2025-05-27 15:26:45] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "edit" button
+[2025-05-27 15:26:45] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "transcript" button
+[2025-05-27 15:26:45] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "unclaim" button
+[2025-05-27 15:26:45] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "Create ticket from message" message command
+[2025-05-27 15:26:45] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "Pin message" message command
+[2025-05-27 15:26:45] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "add" slash command
+[2025-05-27 15:26:45] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "claim" slash command
+[2025-05-27 15:26:45] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "close" slash command
+[2025-05-27 15:26:45] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "force-close" slash command
+[2025-05-27 15:26:45] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "help" slash command
+[2025-05-27 15:26:45] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "move" slash command
+[2025-05-27 15:26:46] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "new" slash command
+[2025-05-27 15:26:46] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "priority" slash command
+[2025-05-27 15:26:46] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "release" slash command
+[2025-05-27 15:26:46] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "remove" slash command
+[2025-05-27 15:26:46] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "rename" slash command
+[2025-05-27 15:26:46] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "tag" slash command
+[2025-05-27 15:26:46] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "tickets" slash command
+[2025-05-27 15:26:46] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "topic" slash command
+[2025-05-27 15:26:46] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "transcript" slash command
+[2025-05-27 15:26:46] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "transfer" slash command
+[2025-05-27 15:26:46] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "Create ticket for user" user command
+[2025-05-27 15:26:46] [INFO] (MENUS) @src/listeners/menus/componentLoad.js:13:24 Loaded "create" menu
+[2025-05-27 15:26:46] [INFO] (MODALS) @src/listeners/modals/componentLoad.js:13:24 Loaded "feedback" modal
+[2025-05-27 15:26:46] [INFO] (MODALS) @src/listeners/modals/componentLoad.js:13:24 Loaded "questions" modal
+[2025-05-27 15:26:46] [INFO] (MODALS) @src/listeners/modals/componentLoad.js:13:24 Loaded "topic" modal
+[2025-05-27 15:26:47] [SUCCESS] (GLOBAL) @src/listeners/client/ready.js:33:14 Connected to Discord as "Ticket#0394" over 1 shards
+[2025-05-27 15:26:47] [INFO] (PRISMA) @src/client.js:131:46 quaint::pooled Starting a mysql pool with 17 connections.
+[2025-05-27 15:26:47] [INFO] (GLOBAL) @src/lib/sync.js:77:13 Cached ticket count of 0 categories (0 open tickets)
+[2025-05-27 15:26:47] [INFO] (GLOBAL) @src/lib/sync.js:78:13 Loaded 0 active cooldowns
+[2025-05-27 15:26:47] [INFO] (GLOBAL) @src/lib/sync.js:79:13 Closed 0 deleted tickets
+[2025-05-27 15:26:47] [SUCCESS] (HTTP) @src/http.js:191:27 Listening at http://127.0.0.1:8169
+[2025-05-27 15:26:48] [INFO] (GLOBAL) @src/lib/updates.js:8:13 Checking for updates...
+[2025-05-27 15:26:48] [INFO] (GLOBAL) @src/lib/updates.js:26:16 No updates available
+[2025-05-27 15:26:48] [WARN] (GLOBAL) @src/lib/stats.js:72:14 The following error is not important and can be safely ignored
+[2025-05-27 15:26:49] [ERROR] (GLOBAL) @src/lib/stats.js:75:15 An error occurred whilst posting stats: {
+  status: 500,
+  error: 'ValidationError: "guilds[0].messages" must be a number'
+}
+[2025-05-27 15:26:50] [INFO] (COMMANDS) @src/listeners/commands/run.js:21:24 l9xphuc used the "help" slash command
+[2025-05-27 15:26:50] [WARN] (GLOBAL) @src/index.js:81:38 Warning: Supplying "ephemeral" for interaction response options is deprecated. Utilize flags instead.
+    at ChatInputCommandInteraction.deferReply (/home/zenkho/Documents/Remake/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:98:17)
+    at ClaimSlashCommand.run (/home/zenkho/Documents/Remake/src/commands/slash/help.js:25:21)
+    at CommandsModule.<anonymous> (/home/zenkho/Documents/Remake/node_modules/@eartharoid/dbf/dist/commands/CommandsModule.js:72:35)
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/zenkho/Documents/Remake/node_modules/@eartharoid/dbf/dist/commands/CommandsModule.js:28:58)
+
+	❯ Discord Tickets by eartharoid
+	❯ Powered by leekslazylogger v6.0.0
+	❯ Log level "info"
+	❯ Node.js v20.19.2 on linux
+	❯ Tuesday, 27 May 2025 at 15:34 PM (Asia/Saigon) -->
+
+[2025-05-27 15:34:51] [INFO] (GLOBAL) @src/client.js:73:12 0 guilds are banned
+[2025-05-27 15:34:51] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "category" autocompleter
+[2025-05-27 15:34:51] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "references" autocompleter
+[2025-05-27 15:34:51] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "tag" autocompleter
+[2025-05-27 15:34:51] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "ticket" autocompleter
+[2025-05-27 15:34:51] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "claim" button
+[2025-05-27 15:34:51] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "close" button
+[2025-05-27 15:34:51] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "create" button
+[2025-05-27 15:34:51] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "edit" button
+[2025-05-27 15:34:51] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "transcript" button
+[2025-05-27 15:34:51] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "unclaim" button
+[2025-05-27 15:34:51] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "Create ticket from message" message command
+[2025-05-27 15:34:51] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "Pin message" message command
+[2025-05-27 15:34:51] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "add" slash command
+[2025-05-27 15:34:51] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "claim" slash command
+[2025-05-27 15:34:51] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "close" slash command
+[2025-05-27 15:34:51] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "force-close" slash command
+[2025-05-27 15:34:51] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "help" slash command
+[2025-05-27 15:34:51] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "move" slash command
+[2025-05-27 15:34:51] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "new" slash command
+[2025-05-27 15:34:51] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "priority" slash command
+[2025-05-27 15:34:51] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "release" slash command
+[2025-05-27 15:34:51] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "remove" slash command
+[2025-05-27 15:34:51] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "rename" slash command
+[2025-05-27 15:34:51] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "tag" slash command
+[2025-05-27 15:34:51] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "tickets" slash command
+[2025-05-27 15:34:51] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "topic" slash command
+[2025-05-27 15:34:51] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "transcript" slash command
+[2025-05-27 15:34:51] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "transfer" slash command
+[2025-05-27 15:34:51] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "Create ticket for user" user command
+[2025-05-27 15:34:51] [INFO] (MENUS) @src/listeners/menus/componentLoad.js:13:24 Loaded "create" menu
+[2025-05-27 15:34:51] [INFO] (MODALS) @src/listeners/modals/componentLoad.js:13:24 Loaded "feedback" modal
+[2025-05-27 15:34:51] [INFO] (MODALS) @src/listeners/modals/componentLoad.js:13:24 Loaded "questions" modal
+[2025-05-27 15:34:51] [INFO] (MODALS) @src/listeners/modals/componentLoad.js:13:24 Loaded "topic" modal
+[2025-05-27 15:34:52] [SUCCESS] (GLOBAL) @src/listeners/client/ready.js:33:14 Connected to Discord as "Ticket#0394" over 1 shards
+[2025-05-27 15:34:52] [INFO] (PRISMA) @src/client.js:131:46 quaint::pooled Starting a mysql pool with 17 connections.
+[2025-05-27 15:34:52] [INFO] (GLOBAL) @src/lib/sync.js:77:13 Cached ticket count of 0 categories (0 open tickets)
+[2025-05-27 15:34:52] [INFO] (GLOBAL) @src/lib/sync.js:78:13 Loaded 0 active cooldowns
+[2025-05-27 15:34:52] [INFO] (GLOBAL) @src/lib/sync.js:79:13 Closed 0 deleted tickets
+[2025-05-27 15:34:52] [SUCCESS] (HTTP) @src/http.js:191:27 Listening at http://127.0.0.1:8169
+[2025-05-27 15:34:53] [INFO] (GLOBAL) @src/lib/updates.js:8:13 Checking for updates...
+[2025-05-27 15:34:53] [INFO] (GLOBAL) @src/lib/updates.js:26:16 No updates available
+[2025-05-27 15:34:54] [WARN] (GLOBAL) @src/lib/stats.js:72:14 The following error is not important and can be safely ignored
+[2025-05-27 15:34:54] [ERROR] (GLOBAL) @src/lib/stats.js:75:15 An error occurred whilst posting stats: {
+  status: 500,
+  error: 'ValidationError: "guilds[0].messages" must be a number'
+}
+[2025-05-27 15:34:58] [INFO] (COMMANDS) @src/listeners/commands/run.js:21:24 l9xphuc used the "help" slash command
+[2025-05-27 15:34:58] [WARN] (GLOBAL) @src/index.js:81:38 Warning: Supplying "ephemeral" for interaction response options is deprecated. Utilize flags instead.
+    at ChatInputCommandInteraction.deferReply (/home/zenkho/Documents/Remake/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:98:17)
+    at ClaimSlashCommand.run (/home/zenkho/Documents/Remake/src/commands/slash/help.js:25:21)
+    at CommandsModule.<anonymous> (/home/zenkho/Documents/Remake/node_modules/@eartharoid/dbf/dist/commands/CommandsModule.js:72:35)
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/zenkho/Documents/Remake/node_modules/@eartharoid/dbf/dist/commands/CommandsModule.js:28:58)
+[2025-05-27 15:35:23] [NOTICE] (GLOBAL) @src/index.js:66:6 Received SIGINT
+
+	❯ Discord Tickets by eartharoid
+	❯ Powered by leekslazylogger v6.0.0
+	❯ Log level "info"
+	❯ Node.js v20.19.2 on linux
+	❯ Tuesday, 27 May 2025 at 15:35 PM (Asia/Saigon) -->
+
+[2025-05-27 15:35:24] [INFO] (GLOBAL) @src/client.js:73:12 0 guilds are banned
+[2025-05-27 15:35:24] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "category" autocompleter
+[2025-05-27 15:35:24] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "references" autocompleter
+[2025-05-27 15:35:24] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "tag" autocompleter
+[2025-05-27 15:35:24] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "ticket" autocompleter
+[2025-05-27 15:35:24] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "claim" button
+[2025-05-27 15:35:24] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "close" button
+[2025-05-27 15:35:24] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "create" button
+[2025-05-27 15:35:24] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "edit" button
+[2025-05-27 15:35:24] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "transcript" button
+[2025-05-27 15:35:24] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "unclaim" button
+[2025-05-27 15:35:24] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "Create ticket from message" message command
+[2025-05-27 15:35:24] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "Pin message" message command
+[2025-05-27 15:35:24] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "add" slash command
+[2025-05-27 15:35:24] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "claim" slash command
+[2025-05-27 15:35:24] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "close" slash command
+[2025-05-27 15:35:24] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "force-close" slash command
+[2025-05-27 15:35:24] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "move" slash command
+[2025-05-27 15:35:24] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "new" slash command
+[2025-05-27 15:35:24] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "priority" slash command
+[2025-05-27 15:35:24] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "release" slash command
+[2025-05-27 15:35:24] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "remove" slash command
+[2025-05-27 15:35:24] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "rename" slash command
+[2025-05-27 15:35:24] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "tag" slash command
+[2025-05-27 15:35:24] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "tickets" slash command
+[2025-05-27 15:35:24] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "topic" slash command
+[2025-05-27 15:35:24] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "transcript" slash command
+[2025-05-27 15:35:24] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "transfer" slash command
+[2025-05-27 15:35:24] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "Create ticket for user" user command
+[2025-05-27 15:35:24] [INFO] (MENUS) @src/listeners/menus/componentLoad.js:13:24 Loaded "create" menu
+[2025-05-27 15:35:24] [INFO] (MODALS) @src/listeners/modals/componentLoad.js:13:24 Loaded "feedback" modal
+[2025-05-27 15:35:24] [INFO] (MODALS) @src/listeners/modals/componentLoad.js:13:24 Loaded "questions" modal
+[2025-05-27 15:35:24] [INFO] (MODALS) @src/listeners/modals/componentLoad.js:13:24 Loaded "topic" modal
+[2025-05-27 15:35:24] [NOTICE] (GLOBAL) @src/index.js:76:6 Discord Tickets v4.0.40 on Node.js v20.19.2 (linux)
+[2025-05-27 15:35:24] [WARN] (GLOBAL) @src/index.js:77:6 Unhandled promise rejection (Error [ComponentAlreadyLoaded])
+[2025-05-27 15:35:24] [ERROR] (GLOBAL) @src/index.js:78:6 Error [ComponentAlreadyLoaded]: A component with the ID "1:add" is already loaded by the "commands" module
+    at CommandsModule.<anonymous> (/home/zenkho/Documents/Remake/node_modules/@eartharoid/dbf/dist/commands/CommandsModule.js:120:23)
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/zenkho/Documents/Remake/node_modules/@eartharoid/dbf/dist/commands/CommandsModule.js:28:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2025-05-27 15:35:26] [SUCCESS] (GLOBAL) @src/listeners/client/ready.js:33:14 Connected to Discord as "Ticket#0394" over 1 shards
+[2025-05-27 15:35:26] [INFO] (PRISMA) @src/client.js:131:46 quaint::pooled Starting a mysql pool with 17 connections.
+[2025-05-27 15:35:26] [INFO] (GLOBAL) @src/lib/sync.js:77:13 Cached ticket count of 0 categories (0 open tickets)
+[2025-05-27 15:35:26] [INFO] (GLOBAL) @src/lib/sync.js:78:13 Loaded 0 active cooldowns
+[2025-05-27 15:35:26] [INFO] (GLOBAL) @src/lib/sync.js:79:13 Closed 0 deleted tickets
+[2025-05-27 15:35:26] [SUCCESS] (HTTP) @src/http.js:191:27 Listening at http://127.0.0.1:8169
+[2025-05-27 15:35:27] [INFO] (GLOBAL) @src/lib/updates.js:8:13 Checking for updates...
+[2025-05-27 15:35:27] [INFO] (GLOBAL) @src/lib/updates.js:26:16 No updates available
+[2025-05-27 15:35:27] [WARN] (GLOBAL) @src/lib/stats.js:72:14 The following error is not important and can be safely ignored
+[2025-05-27 15:35:27] [ERROR] (GLOBAL) @src/lib/stats.js:75:15 An error occurred whilst posting stats: {
+  status: 500,
+  error: 'ValidationError: "guilds[0].messages" must be a number'
+}
+[2025-05-27 15:35:35] [NOTICE] (GLOBAL) @src/index.js:66:6 Received SIGINT
+
+	❯ Discord Tickets by eartharoid
+	❯ Powered by leekslazylogger v6.0.0
+	❯ Log level "info"
+	❯ Node.js v20.19.2 on linux
+	❯ Tuesday, 27 May 2025 at 15:35 PM (Asia/Saigon) -->
+
+[2025-05-27 15:35:36] [INFO] (GLOBAL) @src/client.js:73:12 0 guilds are banned
+[2025-05-27 15:35:36] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "category" autocompleter
+[2025-05-27 15:35:36] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "references" autocompleter
+[2025-05-27 15:35:36] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "tag" autocompleter
+[2025-05-27 15:35:36] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "ticket" autocompleter
+[2025-05-27 15:35:36] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "claim" button
+[2025-05-27 15:35:36] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "close" button
+[2025-05-27 15:35:36] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "create" button
+[2025-05-27 15:35:36] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "edit" button
+[2025-05-27 15:35:36] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "transcript" button
+[2025-05-27 15:35:36] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "unclaim" button
+[2025-05-27 15:35:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "Create ticket from message" message command
+[2025-05-27 15:35:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "Pin message" message command
+[2025-05-27 15:35:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "add" slash command
+[2025-05-27 15:35:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "claim" slash command
+[2025-05-27 15:35:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "close" slash command
+[2025-05-27 15:35:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "force-close" slash command
+[2025-05-27 15:35:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "help" slash command
+[2025-05-27 15:35:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "move" slash command
+[2025-05-27 15:35:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "new" slash command
+[2025-05-27 15:35:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "priority" slash command
+[2025-05-27 15:35:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "release" slash command
+[2025-05-27 15:35:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "remove" slash command
+[2025-05-27 15:35:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "rename" slash command
+[2025-05-27 15:35:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "tag" slash command
+[2025-05-27 15:35:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "tickets" slash command
+[2025-05-27 15:35:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "topic" slash command
+[2025-05-27 15:35:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "transcript" slash command
+[2025-05-27 15:35:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "transfer" slash command
+[2025-05-27 15:35:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "Create ticket for user" user command
+[2025-05-27 15:35:36] [INFO] (MENUS) @src/listeners/menus/componentLoad.js:13:24 Loaded "create" menu
+[2025-05-27 15:35:36] [INFO] (MODALS) @src/listeners/modals/componentLoad.js:13:24 Loaded "feedback" modal
+[2025-05-27 15:35:36] [INFO] (MODALS) @src/listeners/modals/componentLoad.js:13:24 Loaded "questions" modal
+[2025-05-27 15:35:36] [INFO] (MODALS) @src/listeners/modals/componentLoad.js:13:24 Loaded "topic" modal
+[2025-05-27 15:35:37] [SUCCESS] (GLOBAL) @src/listeners/client/ready.js:33:14 Connected to Discord as "Ticket#0394" over 1 shards
+[2025-05-27 15:35:37] [INFO] (PRISMA) @src/client.js:131:46 quaint::pooled Starting a mysql pool with 17 connections.
+[2025-05-27 15:35:37] [INFO] (GLOBAL) @src/lib/sync.js:77:13 Cached ticket count of 0 categories (0 open tickets)
+[2025-05-27 15:35:38] [INFO] (GLOBAL) @src/lib/sync.js:78:13 Loaded 0 active cooldowns
+[2025-05-27 15:35:38] [INFO] (GLOBAL) @src/lib/sync.js:79:13 Closed 0 deleted tickets
+[2025-05-27 15:35:38] [SUCCESS] (HTTP) @src/http.js:191:27 Listening at http://127.0.0.1:8169
+[2025-05-27 15:35:38] [INFO] (GLOBAL) @src/lib/updates.js:8:13 Checking for updates...
+[2025-05-27 15:35:39] [INFO] (GLOBAL) @src/lib/updates.js:26:16 No updates available
+[2025-05-27 15:35:39] [WARN] (GLOBAL) @src/lib/stats.js:72:14 The following error is not important and can be safely ignored
+[2025-05-27 15:35:39] [ERROR] (GLOBAL) @src/lib/stats.js:75:15 An error occurred whilst posting stats: {
+  status: 500,
+  error: 'ValidationError: "guilds[0].messages" must be a number'
+}
+[2025-05-27 15:39:35] [NOTICE] (GLOBAL) @src/index.js:66:6 Received SIGINT
+
+	❯ Discord Tickets by eartharoid
+	❯ Powered by leekslazylogger v6.0.0
+	❯ Log level "info"
+	❯ Node.js v20.19.2 on linux
+	❯ Tuesday, 27 May 2025 at 15:39 PM (Asia/Saigon) -->
+
+[2025-05-27 15:39:36] [INFO] (GLOBAL) @src/client.js:73:12 0 guilds are banned
+[2025-05-27 15:39:36] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "category" autocompleter
+[2025-05-27 15:39:36] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "references" autocompleter
+[2025-05-27 15:39:36] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "tag" autocompleter
+[2025-05-27 15:39:36] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "ticket" autocompleter
+[2025-05-27 15:39:36] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "claim" button
+[2025-05-27 15:39:36] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "close" button
+[2025-05-27 15:39:36] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "create" button
+[2025-05-27 15:39:36] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "edit" button
+[2025-05-27 15:39:36] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "transcript" button
+[2025-05-27 15:39:36] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "unclaim" button
+[2025-05-27 15:39:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "Create ticket from message" message command
+[2025-05-27 15:39:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "Pin message" message command
+[2025-05-27 15:39:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "add" slash command
+[2025-05-27 15:39:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "claim" slash command
+[2025-05-27 15:39:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "close" slash command
+[2025-05-27 15:39:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "force-close" slash command
+[2025-05-27 15:39:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "help" slash command
+[2025-05-27 15:39:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "move" slash command
+[2025-05-27 15:39:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "new" slash command
+[2025-05-27 15:39:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "priority" slash command
+[2025-05-27 15:39:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "release" slash command
+[2025-05-27 15:39:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "remove" slash command
+[2025-05-27 15:39:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "rename" slash command
+[2025-05-27 15:39:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "tag" slash command
+[2025-05-27 15:39:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "tickets" slash command
+[2025-05-27 15:39:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "topic" slash command
+[2025-05-27 15:39:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "transcript" slash command
+[2025-05-27 15:39:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "transfer" slash command
+[2025-05-27 15:39:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "Create ticket for user" user command
+[2025-05-27 15:39:36] [INFO] (MENUS) @src/listeners/menus/componentLoad.js:13:24 Loaded "create" menu
+[2025-05-27 15:39:36] [INFO] (MODALS) @src/listeners/modals/componentLoad.js:13:24 Loaded "feedback" modal
+[2025-05-27 15:39:36] [INFO] (MODALS) @src/listeners/modals/componentLoad.js:13:24 Loaded "questions" modal
+[2025-05-27 15:39:36] [INFO] (MODALS) @src/listeners/modals/componentLoad.js:13:24 Loaded "topic" modal
+[2025-05-27 15:39:37] [SUCCESS] (GLOBAL) @src/listeners/client/ready.js:33:14 Connected to Discord as "Ticket#0394" over 1 shards
+[2025-05-27 15:39:37] [INFO] (PRISMA) @src/client.js:131:46 quaint::pooled Starting a mysql pool with 17 connections.
+[2025-05-27 15:39:37] [INFO] (GLOBAL) @src/lib/sync.js:77:13 Cached ticket count of 0 categories (0 open tickets)
+[2025-05-27 15:39:37] [INFO] (GLOBAL) @src/lib/sync.js:78:13 Loaded 0 active cooldowns
+[2025-05-27 15:39:37] [INFO] (GLOBAL) @src/lib/sync.js:79:13 Closed 0 deleted tickets
+[2025-05-27 15:39:37] [SUCCESS] (HTTP) @src/http.js:191:27 Listening at http://127.0.0.1:8169
+[2025-05-27 15:39:38] [INFO] (GLOBAL) @src/lib/updates.js:8:13 Checking for updates...
+[2025-05-27 15:39:39] [INFO] (GLOBAL) @src/lib/updates.js:26:16 No updates available
+[2025-05-27 15:39:39] [WARN] (GLOBAL) @src/lib/stats.js:72:14 The following error is not important and can be safely ignored
+[2025-05-27 15:39:39] [ERROR] (GLOBAL) @src/lib/stats.js:75:15 An error occurred whilst posting stats: {
+  status: 500,
+  error: 'ValidationError: "guilds[0].messages" must be a number'
+}
+[2025-05-27 15:39:40] [INFO] (COMMANDS) @src/listeners/commands/run.js:21:24 l9xphuc used the "help" slash command
+[2025-05-27 15:39:40] [WARN] (GLOBAL) @src/index.js:81:38 Warning: Supplying "ephemeral" for interaction response options is deprecated. Utilize flags instead.
+    at ChatInputCommandInteraction.deferReply (/home/zenkho/Documents/Remake/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:98:17)
+    at ClaimSlashCommand.run (/home/zenkho/Documents/Remake/src/commands/slash/help.js:25:21)
+    at CommandsModule.<anonymous> (/home/zenkho/Documents/Remake/node_modules/@eartharoid/dbf/dist/commands/CommandsModule.js:72:35)
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/zenkho/Documents/Remake/node_modules/@eartharoid/dbf/dist/commands/CommandsModule.js:28:58)
+[2025-05-27 15:44:15] [NOTICE] (GLOBAL) @src/index.js:66:6 Received SIGINT
+
+	❯ Discord Tickets by eartharoid
+	❯ Powered by leekslazylogger v6.0.0
+	❯ Log level "info"
+	❯ Node.js v20.19.2 on linux
+	❯ Tuesday, 27 May 2025 at 15:44 PM (Asia/Saigon) -->
+
+[2025-05-27 15:44:17] [INFO] (GLOBAL) @src/client.js:73:12 0 guilds are banned
+[2025-05-27 15:44:17] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "category" autocompleter
+[2025-05-27 15:44:17] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "references" autocompleter
+[2025-05-27 15:44:17] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "tag" autocompleter
+[2025-05-27 15:44:17] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "ticket" autocompleter
+[2025-05-27 15:44:17] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "claim" button
+[2025-05-27 15:44:17] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "close" button
+[2025-05-27 15:44:17] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "create" button
+[2025-05-27 15:44:17] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "edit" button
+[2025-05-27 15:44:17] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "transcript" button
+[2025-05-27 15:44:17] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "unclaim" button
+[2025-05-27 15:44:17] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "Create ticket from message" message command
+[2025-05-27 15:44:17] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "Pin message" message command
+[2025-05-27 15:44:17] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "add" slash command
+[2025-05-27 15:44:17] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "claim" slash command
+[2025-05-27 15:44:17] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "close" slash command
+[2025-05-27 15:44:17] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "force-close" slash command
+[2025-05-27 15:44:17] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "help" slash command
+[2025-05-27 15:44:17] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "move" slash command
+[2025-05-27 15:44:17] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "new" slash command
+[2025-05-27 15:44:17] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "priority" slash command
+[2025-05-27 15:44:17] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "release" slash command
+[2025-05-27 15:44:17] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "remove" slash command
+[2025-05-27 15:44:17] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "rename" slash command
+[2025-05-27 15:44:17] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "tag" slash command
+[2025-05-27 15:44:17] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "tickets" slash command
+[2025-05-27 15:44:17] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "topic" slash command
+[2025-05-27 15:44:17] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "transcript" slash command
+[2025-05-27 15:44:17] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "transfer" slash command
+[2025-05-27 15:44:17] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "Create ticket for user" user command
+[2025-05-27 15:44:17] [INFO] (MENUS) @src/listeners/menus/componentLoad.js:13:24 Loaded "create" menu
+[2025-05-27 15:44:17] [INFO] (MODALS) @src/listeners/modals/componentLoad.js:13:24 Loaded "feedback" modal
+[2025-05-27 15:44:17] [INFO] (MODALS) @src/listeners/modals/componentLoad.js:13:24 Loaded "questions" modal
+[2025-05-27 15:44:17] [INFO] (MODALS) @src/listeners/modals/componentLoad.js:13:24 Loaded "topic" modal
+[2025-05-27 15:44:18] [SUCCESS] (GLOBAL) @src/listeners/client/ready.js:33:14 Connected to Discord as "Ticket#0394" over 1 shards
+[2025-05-27 15:44:18] [INFO] (PRISMA) @src/client.js:131:46 quaint::pooled Starting a mysql pool with 17 connections.
+[2025-05-27 15:44:18] [INFO] (GLOBAL) @src/lib/sync.js:77:13 Cached ticket count of 0 categories (0 open tickets)
+[2025-05-27 15:44:18] [INFO] (GLOBAL) @src/lib/sync.js:78:13 Loaded 0 active cooldowns
+[2025-05-27 15:44:18] [INFO] (GLOBAL) @src/lib/sync.js:79:13 Closed 0 deleted tickets
+[2025-05-27 15:44:18] [SUCCESS] (HTTP) @src/http.js:191:27 Listening at http://127.0.0.1:8169
+[2025-05-27 15:44:19] [INFO] (GLOBAL) @src/lib/updates.js:8:13 Checking for updates...
+[2025-05-27 15:44:20] [INFO] (GLOBAL) @src/lib/updates.js:26:16 No updates available
+[2025-05-27 15:44:20] [WARN] (GLOBAL) @src/lib/stats.js:72:14 The following error is not important and can be safely ignored
+[2025-05-27 15:44:20] [ERROR] (GLOBAL) @src/lib/stats.js:75:15 An error occurred whilst posting stats: {
+  status: 500,
+  error: 'ValidationError: "guilds[0].messages" must be a number'
+}
+[2025-05-27 15:46:34] [NOTICE] (GLOBAL) @src/index.js:66:6 Received SIGINT
+
+	❯ Discord Tickets by eartharoid
+	❯ Powered by leekslazylogger v6.0.0
+	❯ Log level "info"
+	❯ Node.js v20.19.2 on linux
+	❯ Tuesday, 27 May 2025 at 15:46 PM (Asia/Saigon) -->
+
+[2025-05-27 15:46:36] [INFO] (GLOBAL) @src/client.js:73:12 0 guilds are banned
+[2025-05-27 15:46:36] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "category" autocompleter
+[2025-05-27 15:46:36] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "references" autocompleter
+[2025-05-27 15:46:36] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "tag" autocompleter
+[2025-05-27 15:46:36] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "ticket" autocompleter
+[2025-05-27 15:46:36] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "claim" button
+[2025-05-27 15:46:36] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "close" button
+[2025-05-27 15:46:36] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "create" button
+[2025-05-27 15:46:36] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "edit" button
+[2025-05-27 15:46:36] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "transcript" button
+[2025-05-27 15:46:36] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "unclaim" button
+[2025-05-27 15:46:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "Create ticket from message" message command
+[2025-05-27 15:46:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "Pin message" message command
+[2025-05-27 15:46:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "add" slash command
+[2025-05-27 15:46:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "claim" slash command
+[2025-05-27 15:46:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "close" slash command
+[2025-05-27 15:46:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "force-close" slash command
+[2025-05-27 15:46:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "help" slash command
+[2025-05-27 15:46:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "move" slash command
+[2025-05-27 15:46:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "new" slash command
+[2025-05-27 15:46:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "priority" slash command
+[2025-05-27 15:46:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "release" slash command
+[2025-05-27 15:46:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "remove" slash command
+[2025-05-27 15:46:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "rename" slash command
+[2025-05-27 15:46:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "tag" slash command
+[2025-05-27 15:46:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "tickets" slash command
+[2025-05-27 15:46:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "topic" slash command
+[2025-05-27 15:46:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "transcript" slash command
+[2025-05-27 15:46:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "transfer" slash command
+[2025-05-27 15:46:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "Create ticket for user" user command
+[2025-05-27 15:46:36] [INFO] (MENUS) @src/listeners/menus/componentLoad.js:13:24 Loaded "create" menu
+[2025-05-27 15:46:36] [INFO] (MODALS) @src/listeners/modals/componentLoad.js:13:24 Loaded "feedback" modal
+[2025-05-27 15:46:36] [INFO] (MODALS) @src/listeners/modals/componentLoad.js:13:24 Loaded "questions" modal
+[2025-05-27 15:46:36] [INFO] (MODALS) @src/listeners/modals/componentLoad.js:13:24 Loaded "topic" modal
+[2025-05-27 15:46:37] [SUCCESS] (GLOBAL) @src/listeners/client/ready.js:33:14 Connected to Discord as "Ticket#0394" over 1 shards
+[2025-05-27 15:46:37] [INFO] (PRISMA) @src/client.js:131:46 quaint::pooled Starting a mysql pool with 17 connections.
+[2025-05-27 15:46:37] [INFO] (GLOBAL) @src/lib/sync.js:77:13 Cached ticket count of 0 categories (0 open tickets)
+[2025-05-27 15:46:37] [INFO] (GLOBAL) @src/lib/sync.js:78:13 Loaded 0 active cooldowns
+[2025-05-27 15:46:37] [INFO] (GLOBAL) @src/lib/sync.js:79:13 Closed 0 deleted tickets
+[2025-05-27 15:46:37] [SUCCESS] (HTTP) @src/http.js:191:27 Listening at http://127.0.0.1:8169
+[2025-05-27 15:46:38] [INFO] (GLOBAL) @src/lib/updates.js:8:13 Checking for updates...
+[2025-05-27 15:46:38] [INFO] (GLOBAL) @src/lib/updates.js:26:16 No updates available
+[2025-05-27 15:46:38] [WARN] (GLOBAL) @src/lib/stats.js:72:14 The following error is not important and can be safely ignored
+[2025-05-27 15:46:38] [ERROR] (GLOBAL) @src/lib/stats.js:75:15 An error occurred whilst posting stats: {
+  status: 500,
+  error: 'ValidationError: "guilds[0].messages" must be a number'
+}
+[2025-05-27 15:46:39] [INFO] (COMMANDS) @src/listeners/commands/run.js:21:24 l9xphuc used the "help" slash command
+[2025-05-27 15:46:39] [WARN] (GLOBAL) @src/index.js:81:38 Warning: Supplying "ephemeral" for interaction response options is deprecated. Utilize flags instead.
+    at ChatInputCommandInteraction.deferReply (/home/zenkho/Documents/Remake/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:98:17)
+    at ClaimSlashCommand.run (/home/zenkho/Documents/Remake/src/commands/slash/help.js:25:21)
+    at CommandsModule.<anonymous> (/home/zenkho/Documents/Remake/node_modules/@eartharoid/dbf/dist/commands/CommandsModule.js:72:35)
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/zenkho/Documents/Remake/node_modules/@eartharoid/dbf/dist/commands/CommandsModule.js:28:58)
+[2025-05-27 15:49:03] [NOTICE] (GLOBAL) @src/index.js:66:6 Received SIGINT
+
+	❯ Discord Tickets by eartharoid
+	❯ Powered by leekslazylogger v6.0.0
+	❯ Log level "info"
+	❯ Node.js v20.19.2 on linux
+	❯ Tuesday, 27 May 2025 at 15:49 PM (Asia/Saigon) -->
+
+[2025-05-27 15:49:04] [INFO] (GLOBAL) @src/client.js:73:12 0 guilds are banned
+[2025-05-27 15:49:04] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "category" autocompleter
+[2025-05-27 15:49:04] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "references" autocompleter
+[2025-05-27 15:49:04] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "tag" autocompleter
+[2025-05-27 15:49:04] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "ticket" autocompleter
+[2025-05-27 15:49:04] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "claim" button
+[2025-05-27 15:49:04] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "close" button
+[2025-05-27 15:49:04] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "create" button
+[2025-05-27 15:49:04] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "edit" button
+[2025-05-27 15:49:04] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "transcript" button
+[2025-05-27 15:49:04] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "unclaim" button
+[2025-05-27 15:49:04] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "Create ticket from message" message command
+[2025-05-27 15:49:04] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "Pin message" message command
+[2025-05-27 15:49:04] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "add" slash command
+[2025-05-27 15:49:04] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "claim" slash command
+[2025-05-27 15:49:04] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "close" slash command
+[2025-05-27 15:49:04] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "force-close" slash command
+[2025-05-27 15:49:04] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "help" slash command
+[2025-05-27 15:49:04] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "move" slash command
+[2025-05-27 15:49:04] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "new" slash command
+[2025-05-27 15:49:04] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "priority" slash command
+[2025-05-27 15:49:04] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "release" slash command
+[2025-05-27 15:49:04] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "remove" slash command
+[2025-05-27 15:49:04] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "rename" slash command
+[2025-05-27 15:49:04] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "tag" slash command
+[2025-05-27 15:49:04] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "tickets" slash command
+[2025-05-27 15:49:04] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "topic" slash command
+[2025-05-27 15:49:04] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "transcript" slash command
+[2025-05-27 15:49:04] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "transfer" slash command
+[2025-05-27 15:49:04] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "Create ticket for user" user command
+[2025-05-27 15:49:04] [INFO] (MENUS) @src/listeners/menus/componentLoad.js:13:24 Loaded "create" menu
+[2025-05-27 15:49:04] [INFO] (MODALS) @src/listeners/modals/componentLoad.js:13:24 Loaded "feedback" modal
+[2025-05-27 15:49:04] [INFO] (MODALS) @src/listeners/modals/componentLoad.js:13:24 Loaded "questions" modal
+[2025-05-27 15:49:04] [INFO] (MODALS) @src/listeners/modals/componentLoad.js:13:24 Loaded "topic" modal
+[2025-05-27 15:49:06] [SUCCESS] (GLOBAL) @src/listeners/client/ready.js:33:14 Connected to Discord as "Ticket#0394" over 1 shards
+[2025-05-27 15:49:06] [INFO] (PRISMA) @src/client.js:131:46 quaint::pooled Starting a mysql pool with 17 connections.
+[2025-05-27 15:49:06] [INFO] (GLOBAL) @src/lib/sync.js:77:13 Cached ticket count of 0 categories (0 open tickets)
+[2025-05-27 15:49:06] [INFO] (GLOBAL) @src/lib/sync.js:78:13 Loaded 0 active cooldowns
+[2025-05-27 15:49:06] [INFO] (GLOBAL) @src/lib/sync.js:79:13 Closed 0 deleted tickets
+[2025-05-27 15:49:06] [SUCCESS] (HTTP) @src/http.js:191:27 Listening at http://127.0.0.1:8169
+[2025-05-27 15:49:06] [INFO] (GLOBAL) @src/lib/updates.js:8:13 Checking for updates...
+[2025-05-27 15:49:07] [INFO] (GLOBAL) @src/lib/updates.js:26:16 No updates available
+[2025-05-27 15:49:07] [WARN] (GLOBAL) @src/lib/stats.js:72:14 The following error is not important and can be safely ignored
+[2025-05-27 15:49:07] [ERROR] (GLOBAL) @src/lib/stats.js:75:15 An error occurred whilst posting stats: {
+  status: 500,
+  error: 'ValidationError: "guilds[0].messages" must be a number'
+}
+[2025-05-27 15:49:10] [INFO] (COMMANDS) @src/listeners/commands/run.js:21:24 l9xphuc used the "help" slash command
+[2025-05-27 15:49:10] [WARN] (GLOBAL) @src/index.js:81:38 Warning: Supplying "ephemeral" for interaction response options is deprecated. Utilize flags instead.
+    at ChatInputCommandInteraction.deferReply (/home/zenkho/Documents/Remake/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:98:17)
+    at ClaimSlashCommand.run (/home/zenkho/Documents/Remake/src/commands/slash/help.js:25:21)
+    at CommandsModule.<anonymous> (/home/zenkho/Documents/Remake/node_modules/@eartharoid/dbf/dist/commands/CommandsModule.js:72:35)
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/zenkho/Documents/Remake/node_modules/@eartharoid/dbf/dist/commands/CommandsModule.js:28:58)
+[2025-05-27 15:49:45] [INFO] (HTTP) @src/http.js:146:21 req-2 127.0.0.1 GET /api/users/@me -+> 200 in 2.98ms
+[2025-05-27 15:49:45] [INFO] (HTTP) @src/http.js:146:21 req-4 127.0.0.1 GET /api/client -+> 200 in 79.43ms
+[2025-05-27 15:49:45] [INFO] (HTTP) @src/http.js:146:21 req-3 127.0.0.1 GET /api/admin/guilds -+> 200 in 668.00ms
+[2025-05-27 15:49:48] [INFO] (HTTP) @src/http.js:146:21 req-7 127.0.0.1 GET /api/users/@me -+> 200 in 1.21ms
+[2025-05-27 15:49:48] [INFO] (HTTP) @src/http.js:146:21 req-8 127.0.0.1 GET /api/client -+> 200 in 0.35ms
+[2025-05-27 15:49:48] [INFO] (HTTP) @src/http.js:146:21 req-9 127.0.0.1 GET /api/admin/guilds/1352981730352435250 -+> 401 in 1.16ms
+[2025-05-27 15:49:48] [INFO] (HTTP) @src/http.js:146:21 req-a 127.0.0.1 GET /auth/login?r=%2Fsettings%2F1352981730352435250&role=admin -+> 302 in 0.96ms
+[2025-05-27 15:49:53] [INFO] (HTTP) @src/http.js:146:21 req-b 127.0.0.1 GET /auth/callback?code=5yzE7Fn4xNFTlEIyIY6v0GOyy0qVZQ&state=4e8f3bfda4ac3ae6 -+> 200 in 781.97ms
+[2025-05-27 15:49:54] [INFO] (HTTP) @src/http.js:146:21 req-e 127.0.0.1 GET /api/users/@me -+> 200 in 0.56ms
+[2025-05-27 15:49:54] [INFO] (HTTP) @src/http.js:146:21 req-g 127.0.0.1 GET /api/client -+> 200 in 0.54ms
+[2025-05-27 15:49:54] [INFO] (HTTP) @src/http.js:146:21 req-h 127.0.0.1 GET /api/users/@me -+> 200 in 0.41ms
+[2025-05-27 15:49:54] [INFO] (HTTP) @src/http.js:146:21 req-i 127.0.0.1 GET /api/client -+> 200 in 0.58ms
+[2025-05-27 15:49:54] [INFO] (HTTP) @src/http.js:146:21 req-f 127.0.0.1 GET /api/admin/guilds/1352981730352435250 -+> 200 in 39.48ms
+[2025-05-27 15:49:54] [INFO] (HTTP) @src/http.js:146:21 req-j 127.0.0.1 GET /api/admin/guilds/1352981730352435250/problems -+> 200 in 2.21ms
+[2025-05-27 15:49:55] [INFO] (HTTP) @src/http.js:146:21 req-n 127.0.0.1 GET /api/users/@me -+> 200 in 2.01ms
+[2025-05-27 15:49:55] [INFO] (HTTP) @src/http.js:146:21 req-o 127.0.0.1 GET /api/client -+> 200 in 0.30ms
+[2025-05-27 15:49:55] [INFO] (HTTP) @src/http.js:146:21 req-p 127.0.0.1 GET /api/admin/guilds/1352981730352435250 -+> 200 in 1.07ms
+[2025-05-27 15:49:55] [INFO] (HTTP) @src/http.js:146:21 req-q 127.0.0.1 GET /api/admin/guilds/1352981730352435250/categories -+> 200 in 3.06ms
+[2025-05-27 15:49:55] [INFO] (HTTP) @src/http.js:146:21 req-s 127.0.0.1 GET /api/users/@me -+> 200 in 1.12ms
+[2025-05-27 15:49:55] [INFO] (HTTP) @src/http.js:146:21 req-t 127.0.0.1 GET /api/client -+> 200 in 0.45ms
+[2025-05-27 15:49:55] [INFO] (HTTP) @src/http.js:146:21 req-u 127.0.0.1 GET /api/admin/guilds/1352981730352435250 -+> 200 in 0.79ms
+[2025-05-27 15:49:55] [INFO] (HTTP) @src/http.js:146:21 req-v 127.0.0.1 GET /api/admin/guilds/1352981730352435250/problems -+> 200 in 1.66ms
+[2025-05-27 15:49:56] [INFO] (HTTP) @src/http.js:146:21 req-y 127.0.0.1 GET /api/users/@me -+> 200 in 0.94ms
+[2025-05-27 15:49:56] [INFO] (HTTP) @src/http.js:146:21 req-z 127.0.0.1 GET /api/client -+> 200 in 0.52ms
+[2025-05-27 15:49:56] [INFO] (HTTP) @src/http.js:146:21 req-10 127.0.0.1 GET /api/admin/guilds/1352981730352435250 -+> 200 in 0.64ms
+[2025-05-27 15:49:56] [INFO] (HTTP) @src/http.js:146:21 req-11 127.0.0.1 GET /api/admin/guilds/1352981730352435250/settings -+> 200 in 6.51ms
+[2025-05-27 15:49:56] [INFO] (HTTP) @src/http.js:146:21 req-12 127.0.0.1 GET /api/admin/guilds/1352981730352435250/data?query=channels.cache -+> 200 in 1.58ms
+[2025-05-27 15:49:56] [INFO] (HTTP) @src/http.js:146:21 req-13 127.0.0.1 GET /api/locales -+> 200 in 0.33ms
+[2025-05-27 15:49:56] [INFO] (HTTP) @src/http.js:146:21 req-14 127.0.0.1 GET /api/admin/guilds/1352981730352435250/data?query=roles.cache -+> 200 in 0.88ms
+[2025-05-27 15:50:00] [INFO] (HTTP) @src/http.js:146:21 req-15 127.0.0.1 PATCH /api/admin/guilds/1352981730352435250/settings -+> 200 in 50.24ms
+[2025-05-27 15:50:00] [INFO] (SETTINGS) @src/lib/logging.js:79:18 l9xphuc updated settings 1352981730352435250
+[2025-05-27 15:50:01] [INFO] (HTTP) @src/http.js:146:21 req-17 127.0.0.1 GET /api/users/@me -+> 200 in 1.33ms
+[2025-05-27 15:50:01] [INFO] (HTTP) @src/http.js:146:21 req-18 127.0.0.1 GET /api/admin/guilds/1352981730352435250 -+> 200 in 0.51ms
+[2025-05-27 15:50:01] [INFO] (HTTP) @src/http.js:146:21 req-19 127.0.0.1 GET /api/client -+> 200 in 0.46ms
+[2025-05-27 15:50:01] [INFO] (HTTP) @src/http.js:146:21 req-1a 127.0.0.1 GET /api/admin/guilds/1352981730352435250/problems -+> 200 in 1.40ms
+[2025-05-27 15:50:02] [INFO] (HTTP) @src/http.js:146:21 req-1c 127.0.0.1 GET /api/users/@me -+> 200 in 0.99ms
+[2025-05-27 15:50:02] [INFO] (HTTP) @src/http.js:146:21 req-1d 127.0.0.1 GET /api/admin/guilds/1352981730352435250 -+> 200 in 0.72ms
+[2025-05-27 15:50:02] [INFO] (HTTP) @src/http.js:146:21 req-1e 127.0.0.1 GET /api/client -+> 200 in 0.99ms
+[2025-05-27 15:50:02] [INFO] (HTTP) @src/http.js:146:21 req-1f 127.0.0.1 GET /api/admin/guilds/1352981730352435250/problems -+> 200 in 1.72ms
+[2025-05-27 15:50:03] [INFO] (HTTP) @src/http.js:146:21 req-1h 127.0.0.1 GET /api/users/@me -+> 200 in 0.74ms
+[2025-05-27 15:50:03] [INFO] (HTTP) @src/http.js:146:21 req-1i 127.0.0.1 GET /api/client -+> 200 in 0.29ms
+[2025-05-27 15:50:03] [INFO] (HTTP) @src/http.js:146:21 req-1j 127.0.0.1 GET /api/admin/guilds/1352981730352435250 -+> 200 in 0.54ms
+[2025-05-27 15:50:03] [INFO] (HTTP) @src/http.js:146:21 req-1k 127.0.0.1 GET /api/admin/guilds/1352981730352435250/settings -+> 200 in 1.40ms
+[2025-05-27 15:50:03] [INFO] (HTTP) @src/http.js:146:21 req-1l 127.0.0.1 GET /api/admin/guilds/1352981730352435250/data?query=channels.cache -+> 200 in 1.21ms
+[2025-05-27 15:50:03] [INFO] (HTTP) @src/http.js:146:21 req-1m 127.0.0.1 GET /api/locales -+> 200 in 0.31ms
+[2025-05-27 15:50:03] [INFO] (HTTP) @src/http.js:146:21 req-1n 127.0.0.1 GET /api/admin/guilds/1352981730352435250/data?query=roles.cache -+> 200 in 0.72ms
+[2025-05-27 15:50:06] [INFO] (HTTP) @src/http.js:146:21 req-1p 127.0.0.1 GET /api/users/@me -+> 200 in 1.14ms
+[2025-05-27 15:50:06] [INFO] (HTTP) @src/http.js:146:21 req-1q 127.0.0.1 GET /api/admin/guilds/1352981730352435250 -+> 200 in 0.45ms
+[2025-05-27 15:50:06] [INFO] (HTTP) @src/http.js:146:21 req-1r 127.0.0.1 GET /api/admin/guilds/1352981730352435250/settings -+> 200 in 1.78ms
+[2025-05-27 15:50:06] [INFO] (HTTP) @src/http.js:146:21 req-1s 127.0.0.1 GET /api/client -+> 200 in 0.27ms
+[2025-05-27 15:50:06] [INFO] (HTTP) @src/http.js:146:21 req-1t 127.0.0.1 GET /api/admin/guilds/1352981730352435250/data?query=channels.cache -+> 200 in 0.75ms
+[2025-05-27 15:50:06] [INFO] (HTTP) @src/http.js:146:21 req-1u 127.0.0.1 GET /api/locales -+> 200 in 0.18ms
+[2025-05-27 15:50:06] [INFO] (HTTP) @src/http.js:146:21 req-1v 127.0.0.1 GET /api/admin/guilds/1352981730352435250/data?query=roles.cache -+> 200 in 0.54ms
+[2025-05-27 15:50:15] [INFO] (COMMANDS) @src/listeners/commands/run.js:21:24 l9xphuc used the "help" slash command
+[2025-05-27 15:51:40] [NOTICE] (GLOBAL) @src/index.js:66:6 Received SIGINT
+
+	❯ Discord Tickets by eartharoid
+	❯ Powered by leekslazylogger v6.0.0
+	❯ Log level "info"
+	❯ Node.js v20.19.2 on linux
+	❯ Tuesday, 27 May 2025 at 15:51 PM (Asia/Saigon) -->
+
+[2025-05-27 15:51:41] [INFO] (GLOBAL) @src/client.js:73:12 0 guilds are banned
+[2025-05-27 15:51:41] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "category" autocompleter
+[2025-05-27 15:51:41] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "references" autocompleter
+[2025-05-27 15:51:41] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "tag" autocompleter
+[2025-05-27 15:51:41] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "ticket" autocompleter
+[2025-05-27 15:51:41] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "claim" button
+[2025-05-27 15:51:41] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "close" button
+[2025-05-27 15:51:41] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "create" button
+[2025-05-27 15:51:41] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "edit" button
+[2025-05-27 15:51:41] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "transcript" button
+[2025-05-27 15:51:41] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "unclaim" button
+[2025-05-27 15:51:41] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "Create ticket from message" message command
+[2025-05-27 15:51:41] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "Pin message" message command
+[2025-05-27 15:51:41] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "add" slash command
+[2025-05-27 15:51:41] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "claim" slash command
+[2025-05-27 15:51:41] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "close" slash command
+[2025-05-27 15:51:41] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "force-close" slash command
+[2025-05-27 15:51:41] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "help" slash command
+[2025-05-27 15:51:41] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "move" slash command
+[2025-05-27 15:51:41] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "new" slash command
+[2025-05-27 15:51:41] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "priority" slash command
+[2025-05-27 15:51:41] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "release" slash command
+[2025-05-27 15:51:41] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "remove" slash command
+[2025-05-27 15:51:41] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "rename" slash command
+[2025-05-27 15:51:41] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "tag" slash command
+[2025-05-27 15:51:41] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "tickets" slash command
+[2025-05-27 15:51:41] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "topic" slash command
+[2025-05-27 15:51:41] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "transcript" slash command
+[2025-05-27 15:51:41] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "transfer" slash command
+[2025-05-27 15:51:41] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "Create ticket for user" user command
+[2025-05-27 15:51:41] [INFO] (MENUS) @src/listeners/menus/componentLoad.js:13:24 Loaded "create" menu
+[2025-05-27 15:51:41] [INFO] (MODALS) @src/listeners/modals/componentLoad.js:13:24 Loaded "feedback" modal
+[2025-05-27 15:51:41] [INFO] (MODALS) @src/listeners/modals/componentLoad.js:13:24 Loaded "questions" modal
+[2025-05-27 15:51:41] [INFO] (MODALS) @src/listeners/modals/componentLoad.js:13:24 Loaded "topic" modal
+[2025-05-27 15:51:43] [SUCCESS] (GLOBAL) @src/listeners/client/ready.js:33:14 Connected to Discord as "Ticket#0394" over 1 shards
+[2025-05-27 15:51:43] [INFO] (PRISMA) @src/client.js:131:46 quaint::pooled Starting a mysql pool with 17 connections.
+[2025-05-27 15:51:43] [INFO] (GLOBAL) @src/lib/sync.js:77:13 Cached ticket count of 0 categories (0 open tickets)
+[2025-05-27 15:51:43] [INFO] (GLOBAL) @src/lib/sync.js:78:13 Loaded 0 active cooldowns
+[2025-05-27 15:51:43] [INFO] (GLOBAL) @src/lib/sync.js:79:13 Closed 0 deleted tickets
+[2025-05-27 15:51:43] [SUCCESS] (HTTP) @src/http.js:191:27 Listening at http://127.0.0.1:8169
+[2025-05-27 15:51:43] [INFO] (GLOBAL) @src/lib/updates.js:8:13 Checking for updates...
+[2025-05-27 15:51:44] [INFO] (GLOBAL) @src/lib/updates.js:26:16 No updates available
+[2025-05-27 15:51:44] [WARN] (GLOBAL) @src/lib/stats.js:72:14 The following error is not important and can be safely ignored
+[2025-05-27 15:51:44] [ERROR] (GLOBAL) @src/lib/stats.js:75:15 An error occurred whilst posting stats: {
+  status: 500,
+  error: 'ValidationError: "guilds[0].messages" must be a number'
+}
+[2025-05-27 15:51:45] [INFO] (COMMANDS) @src/listeners/commands/run.js:21:24 l9xphuc used the "help" slash command
+[2025-05-27 15:51:45] [WARN] (GLOBAL) @src/index.js:81:38 Warning: Supplying "ephemeral" for interaction response options is deprecated. Utilize flags instead.
+    at ChatInputCommandInteraction.deferReply (/home/zenkho/Documents/Remake/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:98:17)
+    at ClaimSlashCommand.run (/home/zenkho/Documents/Remake/src/commands/slash/help.js:25:21)
+    at CommandsModule.<anonymous> (/home/zenkho/Documents/Remake/node_modules/@eartharoid/dbf/dist/commands/CommandsModule.js:72:35)
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/zenkho/Documents/Remake/node_modules/@eartharoid/dbf/dist/commands/CommandsModule.js:28:58)
+[2025-05-27 15:52:27] [NOTICE] (GLOBAL) @src/index.js:66:6 Received SIGINT
+
+	❯ Discord Tickets by eartharoid
+	❯ Powered by leekslazylogger v6.0.0
+	❯ Log level "info"
+	❯ Node.js v20.19.2 on linux
+	❯ Tuesday, 27 May 2025 at 15:52 PM (Asia/Saigon) -->
+
+[2025-05-27 15:52:28] [INFO] (GLOBAL) @src/client.js:73:12 0 guilds are banned
+[2025-05-27 15:52:28] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "category" autocompleter
+[2025-05-27 15:52:28] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "references" autocompleter
+[2025-05-27 15:52:28] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "tag" autocompleter
+[2025-05-27 15:52:28] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "ticket" autocompleter
+[2025-05-27 15:52:28] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "claim" button
+[2025-05-27 15:52:28] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "close" button
+[2025-05-27 15:52:28] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "create" button
+[2025-05-27 15:52:28] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "edit" button
+[2025-05-27 15:52:28] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "transcript" button
+[2025-05-27 15:52:28] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "unclaim" button
+[2025-05-27 15:52:28] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "Create ticket from message" message command
+[2025-05-27 15:52:28] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "Pin message" message command
+[2025-05-27 15:52:28] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "add" slash command
+[2025-05-27 15:52:28] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "claim" slash command
+[2025-05-27 15:52:28] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "close" slash command
+[2025-05-27 15:52:28] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "force-close" slash command
+[2025-05-27 15:52:28] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "help" slash command
+[2025-05-27 15:52:28] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "move" slash command
+[2025-05-27 15:52:28] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "new" slash command
+[2025-05-27 15:52:28] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "priority" slash command
+[2025-05-27 15:52:28] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "release" slash command
+[2025-05-27 15:52:28] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "remove" slash command
+[2025-05-27 15:52:28] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "rename" slash command
+[2025-05-27 15:52:28] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "tag" slash command
+[2025-05-27 15:52:28] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "tickets" slash command
+[2025-05-27 15:52:28] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "topic" slash command
+[2025-05-27 15:52:28] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "transcript" slash command
+[2025-05-27 15:52:28] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "transfer" slash command
+[2025-05-27 15:52:28] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "Create ticket for user" user command
+[2025-05-27 15:52:28] [INFO] (MENUS) @src/listeners/menus/componentLoad.js:13:24 Loaded "create" menu
+[2025-05-27 15:52:28] [INFO] (MODALS) @src/listeners/modals/componentLoad.js:13:24 Loaded "feedback" modal
+[2025-05-27 15:52:28] [INFO] (MODALS) @src/listeners/modals/componentLoad.js:13:24 Loaded "questions" modal
+[2025-05-27 15:52:28] [INFO] (MODALS) @src/listeners/modals/componentLoad.js:13:24 Loaded "topic" modal
+[2025-05-27 15:52:29] [SUCCESS] (GLOBAL) @src/listeners/client/ready.js:33:14 Connected to Discord as "Ticket#0394" over 1 shards
+[2025-05-27 15:52:29] [INFO] (PRISMA) @src/client.js:131:46 quaint::pooled Starting a mysql pool with 17 connections.
+[2025-05-27 15:52:29] [INFO] (GLOBAL) @src/lib/sync.js:77:13 Cached ticket count of 0 categories (0 open tickets)
+[2025-05-27 15:52:29] [INFO] (GLOBAL) @src/lib/sync.js:78:13 Loaded 0 active cooldowns
+[2025-05-27 15:52:29] [INFO] (GLOBAL) @src/lib/sync.js:79:13 Closed 0 deleted tickets
+[2025-05-27 15:52:29] [SUCCESS] (HTTP) @src/http.js:191:27 Listening at http://127.0.0.1:8169
+[2025-05-27 15:52:30] [INFO] (GLOBAL) @src/lib/updates.js:8:13 Checking for updates...
+[2025-05-27 15:52:30] [INFO] (GLOBAL) @src/lib/updates.js:26:16 No updates available
+[2025-05-27 15:52:31] [WARN] (GLOBAL) @src/lib/stats.js:72:14 The following error is not important and can be safely ignored
+[2025-05-27 15:52:31] [ERROR] (GLOBAL) @src/lib/stats.js:75:15 An error occurred whilst posting stats: {
+  status: 500,
+  error: 'ValidationError: "guilds[0].messages" must be a number'
+}
+[2025-05-27 15:52:32] [INFO] (COMMANDS) @src/listeners/commands/run.js:21:24 l9xphuc used the "help" slash command
+[2025-05-27 15:52:32] [WARN] (GLOBAL) @src/index.js:81:38 Warning: Supplying "ephemeral" for interaction response options is deprecated. Utilize flags instead.
+    at ChatInputCommandInteraction.deferReply (/home/zenkho/Documents/Remake/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:98:17)
+    at ClaimSlashCommand.run (/home/zenkho/Documents/Remake/src/commands/slash/help.js:25:21)
+    at CommandsModule.<anonymous> (/home/zenkho/Documents/Remake/node_modules/@eartharoid/dbf/dist/commands/CommandsModule.js:72:35)
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/zenkho/Documents/Remake/node_modules/@eartharoid/dbf/dist/commands/CommandsModule.js:28:58)
+[2025-05-27 15:56:25] [NOTICE] (GLOBAL) @src/index.js:66:6 Received SIGINT
+
+	❯ Discord Tickets by eartharoid
+	❯ Powered by leekslazylogger v6.0.0
+	❯ Log level "info"
+	❯ Node.js v20.19.2 on linux
+	❯ Tuesday, 27 May 2025 at 15:56 PM (Asia/Saigon) -->
+
+[2025-05-27 15:56:26] [INFO] (GLOBAL) @src/client.js:73:12 0 guilds are banned
+[2025-05-27 15:56:26] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "category" autocompleter
+[2025-05-27 15:56:26] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "references" autocompleter
+[2025-05-27 15:56:26] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "tag" autocompleter
+[2025-05-27 15:56:26] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "ticket" autocompleter
+[2025-05-27 15:56:26] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "claim" button
+[2025-05-27 15:56:26] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "close" button
+[2025-05-27 15:56:26] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "create" button
+[2025-05-27 15:56:26] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "edit" button
+[2025-05-27 15:56:26] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "transcript" button
+[2025-05-27 15:56:26] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "unclaim" button
+[2025-05-27 15:56:26] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "Create ticket from message" message command
+[2025-05-27 15:56:26] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "Pin message" message command
+[2025-05-27 15:56:26] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "add" slash command
+[2025-05-27 15:56:26] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "claim" slash command
+[2025-05-27 15:56:26] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "close" slash command
+[2025-05-27 15:56:26] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "force-close" slash command
+[2025-05-27 15:56:26] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "help" slash command
+[2025-05-27 15:56:26] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "move" slash command
+[2025-05-27 15:56:26] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "new" slash command
+[2025-05-27 15:56:26] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "priority" slash command
+[2025-05-27 15:56:26] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "release" slash command
+[2025-05-27 15:56:26] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "remove" slash command
+[2025-05-27 15:56:26] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "rename" slash command
+[2025-05-27 15:56:26] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "tag" slash command
+[2025-05-27 15:56:26] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "tickets" slash command
+[2025-05-27 15:56:26] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "topic" slash command
+[2025-05-27 15:56:26] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "transcript" slash command
+[2025-05-27 15:56:26] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "transfer" slash command
+[2025-05-27 15:56:26] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "Create ticket for user" user command
+[2025-05-27 15:56:26] [INFO] (MENUS) @src/listeners/menus/componentLoad.js:13:24 Loaded "create" menu
+[2025-05-27 15:56:26] [INFO] (MODALS) @src/listeners/modals/componentLoad.js:13:24 Loaded "feedback" modal
+[2025-05-27 15:56:26] [INFO] (MODALS) @src/listeners/modals/componentLoad.js:13:24 Loaded "questions" modal
+[2025-05-27 15:56:26] [INFO] (MODALS) @src/listeners/modals/componentLoad.js:13:24 Loaded "topic" modal
+[2025-05-27 15:56:27] [SUCCESS] (GLOBAL) @src/listeners/client/ready.js:33:14 Connected to Discord as "Ticket#0394" over 1 shards
+[2025-05-27 15:56:27] [INFO] (PRISMA) @src/client.js:131:46 quaint::pooled Starting a mysql pool with 17 connections.
+[2025-05-27 15:56:27] [INFO] (GLOBAL) @src/lib/sync.js:77:13 Cached ticket count of 0 categories (0 open tickets)
+[2025-05-27 15:56:27] [INFO] (GLOBAL) @src/lib/sync.js:78:13 Loaded 0 active cooldowns
+[2025-05-27 15:56:27] [INFO] (GLOBAL) @src/lib/sync.js:79:13 Closed 0 deleted tickets
+[2025-05-27 15:56:27] [SUCCESS] (HTTP) @src/http.js:191:27 Listening at http://127.0.0.1:8169
+[2025-05-27 15:56:28] [INFO] (GLOBAL) @src/lib/updates.js:8:13 Checking for updates...
+[2025-05-27 15:56:29] [INFO] (GLOBAL) @src/lib/updates.js:26:16 No updates available
+[2025-05-27 15:56:29] [WARN] (GLOBAL) @src/lib/stats.js:72:14 The following error is not important and can be safely ignored
+[2025-05-27 15:56:29] [ERROR] (GLOBAL) @src/lib/stats.js:75:15 An error occurred whilst posting stats: {
+  status: 500,
+  error: 'ValidationError: "guilds[0].messages" must be a number'
+}
+[2025-05-27 15:56:30] [INFO] (COMMANDS) @src/listeners/commands/run.js:21:24 l9xphuc used the "help" slash command
+[2025-05-27 15:56:30] [WARN] (GLOBAL) @src/index.js:81:38 Warning: Supplying "ephemeral" for interaction response options is deprecated. Utilize flags instead.
+    at ChatInputCommandInteraction.deferReply (/home/zenkho/Documents/Remake/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:98:17)
+    at ClaimSlashCommand.run (/home/zenkho/Documents/Remake/src/commands/slash/help.js:25:21)
+    at CommandsModule.<anonymous> (/home/zenkho/Documents/Remake/node_modules/@eartharoid/dbf/dist/commands/CommandsModule.js:72:35)
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/zenkho/Documents/Remake/node_modules/@eartharoid/dbf/dist/commands/CommandsModule.js:28:58)
+[2025-05-27 15:56:57] [NOTICE] (GLOBAL) @src/index.js:66:6 Received SIGINT
+
+	❯ Discord Tickets by eartharoid
+	❯ Powered by leekslazylogger v6.0.0
+	❯ Log level "info"
+	❯ Node.js v20.19.2 on linux
+	❯ Tuesday, 27 May 2025 at 15:56 PM (Asia/Saigon) -->
+
+[2025-05-27 15:56:58] [INFO] (GLOBAL) @src/client.js:73:12 0 guilds are banned
+[2025-05-27 15:56:58] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "category" autocompleter
+[2025-05-27 15:56:58] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "references" autocompleter
+[2025-05-27 15:56:58] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "tag" autocompleter
+[2025-05-27 15:56:58] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "ticket" autocompleter
+[2025-05-27 15:56:58] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "claim" button
+[2025-05-27 15:56:58] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "close" button
+[2025-05-27 15:56:58] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "create" button
+[2025-05-27 15:56:58] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "edit" button
+[2025-05-27 15:56:58] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "transcript" button
+[2025-05-27 15:56:58] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "unclaim" button
+[2025-05-27 15:56:58] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "Create ticket from message" message command
+[2025-05-27 15:56:58] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "Pin message" message command
+[2025-05-27 15:56:58] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "add" slash command
+[2025-05-27 15:56:58] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "claim" slash command
+[2025-05-27 15:56:58] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "close" slash command
+[2025-05-27 15:56:58] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "force-close" slash command
+[2025-05-27 15:56:58] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "help" slash command
+[2025-05-27 15:56:58] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "move" slash command
+[2025-05-27 15:56:58] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "new" slash command
+[2025-05-27 15:56:58] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "priority" slash command
+[2025-05-27 15:56:58] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "release" slash command
+[2025-05-27 15:56:58] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "remove" slash command
+[2025-05-27 15:56:58] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "rename" slash command
+[2025-05-27 15:56:58] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "tag" slash command
+[2025-05-27 15:56:58] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "tickets" slash command
+[2025-05-27 15:56:58] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "topic" slash command
+[2025-05-27 15:56:58] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "transcript" slash command
+[2025-05-27 15:56:58] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "transfer" slash command
+[2025-05-27 15:56:58] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "Create ticket for user" user command
+[2025-05-27 15:56:58] [INFO] (MENUS) @src/listeners/menus/componentLoad.js:13:24 Loaded "create" menu
+[2025-05-27 15:56:58] [INFO] (MODALS) @src/listeners/modals/componentLoad.js:13:24 Loaded "feedback" modal
+[2025-05-27 15:56:58] [INFO] (MODALS) @src/listeners/modals/componentLoad.js:13:24 Loaded "questions" modal
+[2025-05-27 15:56:58] [INFO] (MODALS) @src/listeners/modals/componentLoad.js:13:24 Loaded "topic" modal
+[2025-05-27 15:56:59] [SUCCESS] (GLOBAL) @src/listeners/client/ready.js:33:14 Connected to Discord as "Ticket#0394" over 1 shards
+[2025-05-27 15:56:59] [INFO] (PRISMA) @src/client.js:131:46 quaint::pooled Starting a mysql pool with 17 connections.
+[2025-05-27 15:56:59] [INFO] (GLOBAL) @src/lib/sync.js:77:13 Cached ticket count of 0 categories (0 open tickets)
+[2025-05-27 15:56:59] [INFO] (GLOBAL) @src/lib/sync.js:78:13 Loaded 0 active cooldowns
+[2025-05-27 15:56:59] [INFO] (GLOBAL) @src/lib/sync.js:79:13 Closed 0 deleted tickets
+[2025-05-27 15:56:59] [SUCCESS] (HTTP) @src/http.js:191:27 Listening at http://127.0.0.1:8169
+[2025-05-27 15:57:00] [INFO] (GLOBAL) @src/lib/updates.js:8:13 Checking for updates...
+[2025-05-27 15:57:01] [INFO] (GLOBAL) @src/lib/updates.js:26:16 No updates available
+[2025-05-27 15:57:01] [WARN] (GLOBAL) @src/lib/stats.js:72:14 The following error is not important and can be safely ignored
+[2025-05-27 15:57:01] [ERROR] (GLOBAL) @src/lib/stats.js:75:15 An error occurred whilst posting stats: {
+  status: 500,
+  error: 'ValidationError: "guilds[0].messages" must be a number'
+}
+[2025-05-27 15:57:03] [INFO] (COMMANDS) @src/listeners/commands/run.js:21:24 l9xphuc used the "help" slash command
+[2025-05-27 15:57:03] [WARN] (GLOBAL) @src/index.js:81:38 Warning: Supplying "ephemeral" for interaction response options is deprecated. Utilize flags instead.
+    at ChatInputCommandInteraction.deferReply (/home/zenkho/Documents/Remake/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:98:17)
+    at ClaimSlashCommand.run (/home/zenkho/Documents/Remake/src/commands/slash/help.js:25:21)
+    at CommandsModule.<anonymous> (/home/zenkho/Documents/Remake/node_modules/@eartharoid/dbf/dist/commands/CommandsModule.js:72:35)
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/zenkho/Documents/Remake/node_modules/@eartharoid/dbf/dist/commands/CommandsModule.js:28:58)
+[2025-05-27 15:57:03] [ERROR] (BUTTONS) @src/lib/error.js:22:19 c68357e5f1
+[2025-05-27 15:57:03] [ERROR] (COMMANDS) @src/lib/error.js:31:20 "help" command execution error: CombinedPropertyError (1)
+  Received one or more errors
+
+  input[2]
+  | CombinedPropertyError (1)
+  |   Received one or more errors
+  | 
+  |   input.name
+  |   | MissingPropertyError > name
+  |   |   A required property is missing
+
+    at _ArrayValidator.handle (/home/zenkho/Documents/Remake/node_modules/@sapphire/shapeshift/dist/cjs/index.cjs:1254:70)
+    at _ArrayValidator.parse (/home/zenkho/Documents/Remake/node_modules/@sapphire/shapeshift/dist/cjs/index.cjs:972:90)
+    at ExtendedEmbedBuilder.spliceFields (/home/zenkho/Documents/Remake/node_modules/@discordjs/builders/dist/index.js:271:31)
+    at ExtendedEmbedBuilder.setFields (/home/zenkho/Documents/Remake/node_modules/@discordjs/builders/dist/index.js:287:10)
+    at ClaimSlashCommand.run (/home/zenkho/Documents/Remake/src/commands/slash/help.js:74:7)
+
+	❯ Discord Tickets by eartharoid
+	❯ Powered by leekslazylogger v6.0.0
+	❯ Log level "info"
+	❯ Node.js v20.19.2 on linux
+	❯ Tuesday, 27 May 2025 at 16:02 PM (Asia/Saigon) -->
+
+[2025-05-27 16:02:36] [INFO] (GLOBAL) @src/client.js:73:12 0 guilds are banned
+[2025-05-27 16:02:36] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "category" autocompleter
+[2025-05-27 16:02:36] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "references" autocompleter
+[2025-05-27 16:02:36] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "tag" autocompleter
+[2025-05-27 16:02:36] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "ticket" autocompleter
+[2025-05-27 16:02:36] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "claim" button
+[2025-05-27 16:02:36] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "close" button
+[2025-05-27 16:02:36] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "create" button
+[2025-05-27 16:02:36] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "edit" button
+[2025-05-27 16:02:36] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "transcript" button
+[2025-05-27 16:02:36] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "unclaim" button
+[2025-05-27 16:02:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "Create ticket from message" message command
+[2025-05-27 16:02:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "Pin message" message command
+[2025-05-27 16:02:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "add" slash command
+[2025-05-27 16:02:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "claim" slash command
+[2025-05-27 16:02:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "close" slash command
+[2025-05-27 16:02:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "force-close" slash command
+[2025-05-27 16:02:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "help" slash command
+[2025-05-27 16:02:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "move" slash command
+[2025-05-27 16:02:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "new" slash command
+[2025-05-27 16:02:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "priority" slash command
+[2025-05-27 16:02:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "release" slash command
+[2025-05-27 16:02:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "remove" slash command
+[2025-05-27 16:02:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "rename" slash command
+[2025-05-27 16:02:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "tag" slash command
+[2025-05-27 16:02:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "tickets" slash command
+[2025-05-27 16:02:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "topic" slash command
+[2025-05-27 16:02:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "transcript" slash command
+[2025-05-27 16:02:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "transfer" slash command
+[2025-05-27 16:02:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "Create ticket for user" user command
+[2025-05-27 16:02:36] [INFO] (MENUS) @src/listeners/menus/componentLoad.js:13:24 Loaded "create" menu
+[2025-05-27 16:02:36] [INFO] (MODALS) @src/listeners/modals/componentLoad.js:13:24 Loaded "feedback" modal
+[2025-05-27 16:02:36] [INFO] (MODALS) @src/listeners/modals/componentLoad.js:13:24 Loaded "questions" modal
+[2025-05-27 16:02:36] [INFO] (MODALS) @src/listeners/modals/componentLoad.js:13:24 Loaded "topic" modal
+[2025-05-27 16:02:37] [SUCCESS] (GLOBAL) @src/listeners/client/ready.js:33:14 Connected to Discord as "Ticket#0394" over 1 shards
+[2025-05-27 16:02:37] [INFO] (PRISMA) @src/client.js:131:46 quaint::pooled Starting a mysql pool with 17 connections.
+[2025-05-27 16:02:37] [INFO] (GLOBAL) @src/lib/sync.js:77:13 Cached ticket count of 0 categories (0 open tickets)
+[2025-05-27 16:02:37] [INFO] (GLOBAL) @src/lib/sync.js:78:13 Loaded 0 active cooldowns
+[2025-05-27 16:02:37] [INFO] (GLOBAL) @src/lib/sync.js:79:13 Closed 0 deleted tickets
+[2025-05-27 16:02:37] [SUCCESS] (HTTP) @src/http.js:191:27 Listening at http://127.0.0.1:8169
+[2025-05-27 16:02:38] [INFO] (GLOBAL) @src/lib/updates.js:8:13 Checking for updates...
+[2025-05-27 16:02:39] [INFO] (GLOBAL) @src/lib/updates.js:26:16 No updates available
+[2025-05-27 16:02:39] [WARN] (GLOBAL) @src/lib/stats.js:72:14 The following error is not important and can be safely ignored
+[2025-05-27 16:02:39] [ERROR] (GLOBAL) @src/lib/stats.js:75:15 An error occurred whilst posting stats: {
+  status: 500,
+  error: 'ValidationError: "guilds[0].messages" must be a number'
+}
+[2025-05-27 16:02:49] [INFO] (COMMANDS) @src/listeners/commands/run.js:21:24 l9xphuc used the "help" slash command
+[2025-05-27 16:02:49] [WARN] (GLOBAL) @src/index.js:81:38 Warning: Supplying "ephemeral" for interaction response options is deprecated. Utilize flags instead.
+    at ChatInputCommandInteraction.deferReply (/home/zenkho/Documents/Remake/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:98:17)
+    at ClaimSlashCommand.run (/home/zenkho/Documents/Remake/src/commands/slash/help.js:25:21)
+    at CommandsModule.<anonymous> (/home/zenkho/Documents/Remake/node_modules/@eartharoid/dbf/dist/commands/CommandsModule.js:72:35)
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/zenkho/Documents/Remake/node_modules/@eartharoid/dbf/dist/commands/CommandsModule.js:28:58)
+
+	❯ Discord Tickets by eartharoid
+	❯ Powered by leekslazylogger v6.0.0
+	❯ Log level "info"
+	❯ Node.js v20.19.2 on linux
+	❯ Tuesday, 27 May 2025 at 16:08 PM (Asia/Saigon) -->
+
+[2025-05-27 16:08:13] [INFO] (GLOBAL) @src/client.js:73:12 0 guilds are banned
+[2025-05-27 16:08:13] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "category" autocompleter
+[2025-05-27 16:08:13] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "references" autocompleter
+[2025-05-27 16:08:13] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "tag" autocompleter
+[2025-05-27 16:08:13] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "ticket" autocompleter
+[2025-05-27 16:08:13] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "claim" button
+[2025-05-27 16:08:13] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "close" button
+[2025-05-27 16:08:13] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "create" button
+[2025-05-27 16:08:13] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "edit" button
+[2025-05-27 16:08:13] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "transcript" button
+[2025-05-27 16:08:13] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "unclaim" button
+[2025-05-27 16:08:13] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "Create ticket from message" message command
+[2025-05-27 16:08:13] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "Pin message" message command
+[2025-05-27 16:08:13] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "add" slash command
+[2025-05-27 16:08:13] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "claim" slash command
+[2025-05-27 16:08:13] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "close" slash command
+[2025-05-27 16:08:13] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "force-close" slash command
+[2025-05-27 16:08:13] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "help" slash command
+[2025-05-27 16:08:13] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "move" slash command
+[2025-05-27 16:08:13] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "new" slash command
+[2025-05-27 16:08:13] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "priority" slash command
+[2025-05-27 16:08:13] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "release" slash command
+[2025-05-27 16:08:13] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "remove" slash command
+[2025-05-27 16:08:13] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "rename" slash command
+[2025-05-27 16:08:13] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "tag" slash command
+[2025-05-27 16:08:13] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "tickets" slash command
+[2025-05-27 16:08:13] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "topic" slash command
+[2025-05-27 16:08:13] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "transcript" slash command
+[2025-05-27 16:08:13] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "transfer" slash command
+[2025-05-27 16:08:13] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "Create ticket for user" user command
+[2025-05-27 16:08:13] [INFO] (MENUS) @src/listeners/menus/componentLoad.js:13:24 Loaded "create" menu
+[2025-05-27 16:08:13] [INFO] (MODALS) @src/listeners/modals/componentLoad.js:13:24 Loaded "feedback" modal
+[2025-05-27 16:08:13] [INFO] (MODALS) @src/listeners/modals/componentLoad.js:13:24 Loaded "questions" modal
+[2025-05-27 16:08:13] [INFO] (MODALS) @src/listeners/modals/componentLoad.js:13:24 Loaded "topic" modal
+[2025-05-27 16:08:15] [SUCCESS] (GLOBAL) @src/listeners/client/ready.js:33:14 Connected to Discord as "Ticket#0394" over 1 shards
+[2025-05-27 16:08:15] [INFO] (PRISMA) @src/client.js:131:46 quaint::pooled Starting a mysql pool with 17 connections.
+[2025-05-27 16:08:15] [INFO] (GLOBAL) @src/lib/sync.js:77:13 Cached ticket count of 0 categories (0 open tickets)
+[2025-05-27 16:08:15] [INFO] (GLOBAL) @src/lib/sync.js:78:13 Loaded 0 active cooldowns
+[2025-05-27 16:08:15] [INFO] (GLOBAL) @src/lib/sync.js:79:13 Closed 0 deleted tickets
+[2025-05-27 16:08:15] [SUCCESS] (HTTP) @src/http.js:191:27 Listening at http://127.0.0.1:8169
+[2025-05-27 16:08:16] [INFO] (GLOBAL) @src/lib/updates.js:8:13 Checking for updates...
+[2025-05-27 16:08:16] [INFO] (GLOBAL) @src/lib/updates.js:26:16 No updates available
+[2025-05-27 16:08:16] [WARN] (GLOBAL) @src/lib/stats.js:72:14 The following error is not important and can be safely ignored
+[2025-05-27 16:08:16] [ERROR] (GLOBAL) @src/lib/stats.js:75:15 An error occurred whilst posting stats: {
+  status: 500,
+  error: 'ValidationError: "guilds[0].messages" must be a number'
+}
+[2025-05-27 16:08:17] [INFO] (COMMANDS) @src/listeners/commands/run.js:21:24 l9xphuc used the "help" slash command
+[2025-05-27 16:08:17] [WARN] (GLOBAL) @src/index.js:81:38 Warning: Supplying "ephemeral" for interaction response options is deprecated. Utilize flags instead.
+    at ChatInputCommandInteraction.deferReply (/home/zenkho/Documents/Remake/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:98:17)
+    at ClaimSlashCommand.run (/home/zenkho/Documents/Remake/src/commands/slash/help.js:25:21)
+    at CommandsModule.<anonymous> (/home/zenkho/Documents/Remake/node_modules/@eartharoid/dbf/dist/commands/CommandsModule.js:72:35)
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/zenkho/Documents/Remake/node_modules/@eartharoid/dbf/dist/commands/CommandsModule.js:28:58)
+[2025-05-27 16:23:57] [INFO] (COMMANDS) @src/listeners/commands/run.js:21:24 l9xphuc used the "help" slash command

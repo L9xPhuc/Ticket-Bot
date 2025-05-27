@@ -1,7 +1,6 @@
 const { SlashCommand } = require('@eartharoid/dbf');
 const { isStaff } = require('../../lib/users');
 const ExtendedEmbedBuilder = require('../../lib/embed');
-const { version } = require('../../../package.json');
 
 module.exports = class ClaimSlashCommand extends SlashCommand {
 	constructor(client, options) {
@@ -29,7 +28,10 @@ module.exports = class ClaimSlashCommand extends SlashCommand {
 		const getMessage = client.i18n.getLocale(settings.locale);
 		const commands = client.application.commands.cache
 			.filter(c => c.type === 1)
-			.map(c => `> </${c.name}:${c.id}>: ${c.description}`)
+			.map(c => {
+				const desc = getMessage(`commands.slash.help.sub.${c.name}`) || c.description;
+				return `> </${c.name}:${c.id}>: ${desc}`;
+			})
 			.join('\n');
 		const newCommand = client.application.commands.cache.find(c => c.name === 'new');
 		const fields = [
@@ -45,10 +47,7 @@ module.exports = class ClaimSlashCommand extends SlashCommand {
 					inline: true,
 					name: getMessage('commands.slash.help.response.links.links'),
 					value: [
-						['commands', 'https://discordtickets.app/features/commands'],
-						['docs', 'https://discordtickets.app'],
-						['feedback', 'https://lnk.earth/dsctickets-feedback'],
-						['support', 'https://lnk.earth/discord'],
+						['support', 'https://discord.com/users/917970047325077615'],
 					]
 						.map(([l, url]) => `> [${getMessage('commands.slash.help.response.links.' + l)}](${url})`)
 						.join('\n'),
@@ -70,7 +69,7 @@ module.exports = class ClaimSlashCommand extends SlashCommand {
 					.setColor(settings.primaryColour)
 					.setTitle(getMessage('commands.slash.help.title'))
 					.setDescription(staff
-						? `**Discord Tickets v${version} by eartharoid.**`
+						? '**Discord Tickets by ZenKho.**'
 						: getMessage('commands.slash.help.response.description', { command: `</${newCommand.name}:${newCommand.id}>` }))
 					.setFields(fields),
 			],

@@ -134,6 +134,23 @@ commands:
           support: Hỗ trợ
         settings: Cài đặt bot
       title: Help
+      sub:
+        add: Thêm thành viên vào ticket
+        claim: Nhận ticket này
+        close: Yêu cầu đóng ticket
+        force-close: Buộc đóng ticket
+        help: Hiển thị menu trợ giúp
+        move: Di chuyển ticket sang mục khác
+        new: Tạo ticket mới
+        priority: Đặt mức ưu tiên cho ticket
+        release: Ngừng hỗ trợ ticket này
+        remove: Xóa thành viên khỏi ticket
+        rename: Đổi tên kênh ticket
+        tag: Sử dụng thẻ
+        tickets: Xem danh sách ticket
+        topic: Đổi chủ đề ticket
+        transcript: Lấy lịch sử chat
+        transfer: Chuyển quyền sở hữu ticket
     move:
       description: Di chuyển ticket này tới mục khác
       moved: 🗃️ {by} đã chuyển từ **{from}** qua **{to}**.
