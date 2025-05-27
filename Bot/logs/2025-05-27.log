@@ -1231,3 +1231,383 @@
     at Generator.next (<anonymous>)
     at fulfilled (/home/zenkho/Documents/Remake/node_modules/@eartharoid/dbf/dist/commands/CommandsModule.js:28:58)
 [2025-05-27 16:23:57] [INFO] (COMMANDS) @src/listeners/commands/run.js:21:24 l9xphuc used the "help" slash command
+
+	❯ Discord Tickets by eartharoid
+	❯ Powered by leekslazylogger v6.0.0
+	❯ Log level "info"
+	❯ Node.js v20.19.2 on linux
+	❯ Tuesday, 27 May 2025 at 10:32 AM (UTC) -->
+
+[2025-05-27 10:32:18] [INFO] (GLOBAL) @src/client.js:73:12 0 guilds are banned
+[2025-05-27 10:32:18] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "category" autocompleter
+[2025-05-27 10:32:18] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "references" autocompleter
+[2025-05-27 10:32:18] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "tag" autocompleter
+[2025-05-27 10:32:18] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "ticket" autocompleter
+[2025-05-27 10:32:18] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "claim" button
+[2025-05-27 10:32:18] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "close" button
+[2025-05-27 10:32:18] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "create" button
+[2025-05-27 10:32:18] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "edit" button
+[2025-05-27 10:32:18] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "transcript" button
+[2025-05-27 10:32:18] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "unclaim" button
+[2025-05-27 10:32:18] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "Create ticket from message" message command
+[2025-05-27 10:32:18] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "Pin message" message command
+[2025-05-27 10:32:18] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "add" slash command
+[2025-05-27 10:32:18] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "claim" slash command
+[2025-05-27 10:32:18] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "close" slash command
+[2025-05-27 10:32:18] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "force-close" slash command
+[2025-05-27 10:32:18] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "help" slash command
+[2025-05-27 10:32:19] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "move" slash command
+[2025-05-27 10:32:19] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "new" slash command
+[2025-05-27 10:32:19] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "priority" slash command
+[2025-05-27 10:32:19] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "release" slash command
+[2025-05-27 10:32:19] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "remove" slash command
+[2025-05-27 10:32:19] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "rename" slash command
+[2025-05-27 10:32:19] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "tag" slash command
+[2025-05-27 10:32:19] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "tickets" slash command
+[2025-05-27 10:32:19] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "topic" slash command
+[2025-05-27 10:32:19] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "transcript" slash command
+[2025-05-27 10:32:19] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "transfer" slash command
+[2025-05-27 10:32:19] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "Create ticket for user" user command
+[2025-05-27 10:32:19] [INFO] (MENUS) @src/listeners/menus/componentLoad.js:13:24 Loaded "create" menu
+[2025-05-27 10:32:19] [INFO] (MODALS) @src/listeners/modals/componentLoad.js:13:24 Loaded "feedback" modal
+[2025-05-27 10:32:19] [INFO] (MODALS) @src/listeners/modals/componentLoad.js:13:24 Loaded "questions" modal
+[2025-05-27 10:32:19] [INFO] (MODALS) @src/listeners/modals/componentLoad.js:13:24 Loaded "topic" modal
+[2025-05-27 10:32:20] [SUCCESS] (GLOBAL) @src/listeners/client/ready.js:33:14 Connected to Discord as "Ticket#0394" over 1 shards
+[2025-05-27 10:32:20] [INFO] (PRISMA) @src/client.js:131:46 quaint::pooled Starting a mysql pool with 9 connections.
+[2025-05-27 10:32:20] [INFO] (GLOBAL) @src/lib/sync.js:77:13 Cached ticket count of 0 categories (0 open tickets)
+[2025-05-27 10:32:20] [INFO] (GLOBAL) @src/lib/sync.js:78:13 Loaded 0 active cooldowns
+[2025-05-27 10:32:20] [INFO] (GLOBAL) @src/lib/sync.js:79:13 Closed 0 deleted tickets
+[2025-05-27 10:32:20] [SUCCESS] (HTTP) @src/http.js:191:27 Listening at http://127.0.0.1:8169
+[2025-05-27 10:32:21] [INFO] (GLOBAL) @src/lib/updates.js:8:13 Checking for updates...
+[2025-05-27 10:32:22] [INFO] (GLOBAL) @src/lib/updates.js:26:16 No updates available
+[2025-05-27 10:32:22] [WARN] (GLOBAL) @src/lib/stats.js:72:14 The following error is not important and can be safely ignored
+[2025-05-27 10:32:22] [ERROR] (GLOBAL) @src/lib/stats.js:75:15 An error occurred whilst posting stats: {
+  status: 500,
+  error: 'ValidationError: "guilds[0].messages" must be a number'
+}
+[2025-05-27 10:35:24] [NOTICE] (GLOBAL) @src/index.js:66:6 Received SIGINT
+
+	❯ Discord Tickets by eartharoid
+	❯ Powered by leekslazylogger v6.0.0
+	❯ Log level "info"
+	❯ Node.js v20.19.2 on linux
+	❯ Tuesday, 27 May 2025 at 10:35 AM (UTC) -->
+
+[2025-05-27 10:35:25] [INFO] (GLOBAL) @src/client.js:73:12 0 guilds are banned
+[2025-05-27 10:35:25] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "category" autocompleter
+[2025-05-27 10:35:25] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "references" autocompleter
+[2025-05-27 10:35:25] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "tag" autocompleter
+[2025-05-27 10:35:25] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "ticket" autocompleter
+[2025-05-27 10:35:25] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "claim" button
+[2025-05-27 10:35:25] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "close" button
+[2025-05-27 10:35:25] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "create" button
+[2025-05-27 10:35:25] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "edit" button
+[2025-05-27 10:35:25] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "transcript" button
+[2025-05-27 10:35:25] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "unclaim" button
+[2025-05-27 10:35:25] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "Create ticket from message" message command
+[2025-05-27 10:35:25] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "Pin message" message command
+[2025-05-27 10:35:25] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "add" slash command
+[2025-05-27 10:35:25] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "claim" slash command
+[2025-05-27 10:35:25] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "close" slash command
+[2025-05-27 10:35:25] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "force-close" slash command
+[2025-05-27 10:35:25] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "help" slash command
+[2025-05-27 10:35:25] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "move" slash command
+[2025-05-27 10:35:25] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "new" slash command
+[2025-05-27 10:35:25] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "priority" slash command
+[2025-05-27 10:35:25] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "release" slash command
+[2025-05-27 10:35:25] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "remove" slash command
+[2025-05-27 10:35:25] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "rename" slash command
+[2025-05-27 10:35:25] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "tag" slash command
+[2025-05-27 10:35:25] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "tickets" slash command
+[2025-05-27 10:35:25] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "topic" slash command
+[2025-05-27 10:35:25] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "transcript" slash command
+[2025-05-27 10:35:25] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "transfer" slash command
+[2025-05-27 10:35:25] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "Create ticket for user" user command
+[2025-05-27 10:35:25] [INFO] (MENUS) @src/listeners/menus/componentLoad.js:13:24 Loaded "create" menu
+[2025-05-27 10:35:25] [INFO] (MODALS) @src/listeners/modals/componentLoad.js:13:24 Loaded "feedback" modal
+[2025-05-27 10:35:25] [INFO] (MODALS) @src/listeners/modals/componentLoad.js:13:24 Loaded "questions" modal
+[2025-05-27 10:35:25] [INFO] (MODALS) @src/listeners/modals/componentLoad.js:13:24 Loaded "topic" modal
+[2025-05-27 10:35:27] [SUCCESS] (GLOBAL) @src/listeners/client/ready.js:33:14 Connected to Discord as "Ticket#0394" over 1 shards
+[2025-05-27 10:35:27] [INFO] (PRISMA) @src/client.js:131:46 quaint::pooled Starting a mysql pool with 9 connections.
+[2025-05-27 10:35:27] [INFO] (GLOBAL) @src/lib/sync.js:77:13 Cached ticket count of 0 categories (0 open tickets)
+[2025-05-27 10:35:27] [INFO] (GLOBAL) @src/lib/sync.js:78:13 Loaded 0 active cooldowns
+[2025-05-27 10:35:27] [INFO] (GLOBAL) @src/lib/sync.js:79:13 Closed 0 deleted tickets
+[2025-05-27 10:35:27] [SUCCESS] (HTTP) @src/http.js:191:27 Listening at http://127.0.0.1:8169
+[2025-05-27 10:35:28] [INFO] (GLOBAL) @src/lib/updates.js:8:13 Checking for updates...
+[2025-05-27 10:35:28] [INFO] (GLOBAL) @src/lib/updates.js:26:16 No updates available
+[2025-05-27 10:35:29] [WARN] (GLOBAL) @src/lib/stats.js:72:14 The following error is not important and can be safely ignored
+[2025-05-27 10:35:29] [ERROR] (GLOBAL) @src/lib/stats.js:75:15 An error occurred whilst posting stats: {
+  status: 500,
+  error: 'ValidationError: "guilds[0].messages" must be a number'
+}
+[2025-05-27 10:36:13] [INFO] (HTTP) @src/http.js:146:21 req-2 127.0.0.1 GET /api/users/@me -+> 401 in 2.37ms
+[2025-05-27 10:36:16] [INFO] (HTTP) @src/http.js:146:21 req-3 127.0.0.1 GET /api/users/@me -+> 401 in 0.91ms
+[2025-05-27 10:36:16] [INFO] (HTTP) @src/http.js:146:21 req-4 127.0.0.1 GET /api/users/@me -+> 401 in 1.02ms
+[2025-05-27 10:36:16] [INFO] (HTTP) @src/http.js:146:21 req-5 127.0.0.1 GET /api/client -+> 200 in 89.56ms
+[2025-05-27 10:36:17] [INFO] (HTTP) @src/http.js:146:21 req-6 127.0.0.1 GET /api/users/@me -+> 401 in 1.10ms
+[2025-05-27 10:36:17] [INFO] (HTTP) @src/http.js:146:21 req-7 127.0.0.1 GET /api/users/@me -+> 401 in 0.97ms
+[2025-05-27 10:36:17] [INFO] (HTTP) @src/http.js:146:21 req-8 127.0.0.1 GET /api/users/@me -+> 401 in 0.84ms
+[2025-05-27 10:36:17] [INFO] (HTTP) @src/http.js:146:21 req-9 127.0.0.1 GET /api/guilds/1112745 -+> 401 in 0.91ms
+[2025-05-27 10:36:17] [INFO] (HTTP) @src/http.js:146:21 req-a 127.0.0.1 GET /api/users/@me -+> 401 in 0.65ms
+[2025-05-27 10:36:17] [INFO] (HTTP) @src/http.js:146:21 req-b 127.0.0.1 GET /api/guilds/1112745 -+> 401 in 0.42ms
+[2025-05-27 10:36:17] [INFO] (HTTP) @src/http.js:146:21 req-c 127.0.0.1 GET /api/client -+> 200 in 0.44ms
+[2025-05-27 10:36:17] [INFO] (HTTP) @src/http.js:146:21 req-d 127.0.0.1 GET /api/client -+> 200 in 0.81ms
+[2025-05-27 10:36:17] [INFO] (HTTP) @src/http.js:146:21 req-f 127.0.0.1 GET /api/users/@me -+> 401 in 1.21ms
+[2025-05-27 10:36:18] [INFO] (HTTP) @src/http.js:146:21 req-h 127.0.0.1 GET /api/users/@me -+> 401 in 1.71ms
+[2025-05-27 10:36:19] [INFO] (HTTP) @src/http.js:146:21 req-j 127.0.0.1 GET /api/users/@me -+> 401 in 2.00ms
+[2025-05-27 10:36:19] [INFO] (HTTP) @src/http.js:146:21 req-l 127.0.0.1 GET /api/users/@me -+> 401 in 1.19ms
+[2025-05-27 10:36:19] [INFO] (HTTP) @src/http.js:146:21 req-m 127.0.0.1 GET /api/guilds/1717867971 -+> 401 in 0.90ms
+[2025-05-27 10:36:20] [INFO] (HTTP) @src/http.js:146:21 req-o 127.0.0.1 GET /api/users/@me -+> 401 in 1.20ms
+[2025-05-27 10:36:20] [INFO] (HTTP) @src/http.js:146:21 req-p 127.0.0.1 GET /auth/login?r=%2F -+> 302 in 4.49ms
+[2025-05-27 10:36:21] [INFO] (HTTP) @src/http.js:146:21 req-r 127.0.0.1 GET /api/users/@me -+> 401 in 0.40ms
+[2025-05-27 10:36:21] [INFO] (HTTP) @src/http.js:146:21 req-s 127.0.0.1 GET /api/guilds/17341589 -+> 401 in 0.35ms
+[2025-05-27 10:36:21] [INFO] (HTTP) @src/http.js:146:21 req-u 127.0.0.1 GET /api/users/@me -+> 401 in 0.96ms
+[2025-05-27 10:36:22] [INFO] (HTTP) @src/http.js:146:21 req-w 127.0.0.1 GET /api/users/@me -+> 401 in 1.04ms
+[2025-05-27 10:36:23] [INFO] (HTTP) @src/http.js:146:21 req-y 127.0.0.1 GET /api/users/@me -+> 401 in 1.05ms
+[2025-05-27 10:36:23] [INFO] (HTTP) @src/http.js:146:21 req-10 127.0.0.1 GET /api/users/@me -+> 401 in 1.17ms
+[2025-05-27 10:36:24] [INFO] (HTTP) @src/http.js:146:21 req-12 127.0.0.1 GET /api/users/@me -+> 401 in 1.13ms
+[2025-05-27 10:36:25] [INFO] (HTTP) @src/http.js:146:21 req-14 127.0.0.1 GET /api/users/@me -+> 401 in 1.03ms
+[2025-05-27 10:36:25] [INFO] (HTTP) @src/http.js:146:21 req-16 127.0.0.1 GET /api/users/@me -+> 401 in 0.95ms
+[2025-05-27 10:36:26] [INFO] (HTTP) @src/http.js:146:21 req-18 127.0.0.1 GET /api/users/@me -+> 401 in 1.02ms
+[2025-05-27 10:36:27] [INFO] (HTTP) @src/http.js:146:21 req-1a 127.0.0.1 GET /api/users/@me -+> 401 in 0.96ms
+[2025-05-27 10:36:27] [INFO] (HTTP) @src/http.js:146:21 req-1c 127.0.0.1 GET /api/users/@me -+> 401 in 0.89ms
+[2025-05-27 10:36:28] [INFO] (HTTP) @src/http.js:146:21 req-1e 127.0.0.1 GET /api/users/@me -+> 401 in 1.11ms
+[2025-05-27 10:36:29] [INFO] (HTTP) @src/http.js:146:21 req-1g 127.0.0.1 GET /api/users/@me -+> 401 in 1.45ms
+[2025-05-27 10:36:30] [INFO] (HTTP) @src/http.js:146:21 req-1i 127.0.0.1 GET /api/users/@me -+> 401 in 1.05ms
+[2025-05-27 10:36:30] [INFO] (HTTP) @src/http.js:146:21 req-1k 127.0.0.1 GET /api/users/@me -+> 401 in 0.94ms
+[2025-05-27 10:36:30] [INFO] (HTTP) @src/http.js:146:21 req-1m 127.0.0.1 GET /api/users/@me -+> 401 in 0.94ms
+[2025-05-27 10:36:30] [INFO] (HTTP) @src/http.js:146:21 req-1o 127.0.0.1 GET /api/users/@me -+> 401 in 0.62ms
+[2025-05-27 10:36:30] [INFO] (HTTP) @src/http.js:146:21 req-1p 127.0.0.1 GET /api/client -+> 200 in 1.06ms
+[2025-05-27 10:36:31] [INFO] (HTTP) @src/http.js:146:21 req-1r 127.0.0.1 GET /api/users/@me -+> 401 in 0.93ms
+[2025-05-27 10:36:32] [INFO] (HTTP) @src/http.js:146:21 req-1t 127.0.0.1 GET /api/users/@me -+> 401 in 0.96ms
+[2025-05-27 10:36:32] [INFO] (HTTP) @src/http.js:146:21 req-1u 127.0.0.1 GET /api/client -+> 200 in 0.39ms
+[2025-05-27 10:36:40] [INFO] (HTTP) @src/http.js:146:21 req-1w 127.0.0.1 GET /api/users/@me -+> 401 in 1.02ms
+[2025-05-27 10:36:41] [INFO] (HTTP) @src/http.js:146:21 req-1y 127.0.0.1 GET /api/users/@me -+> 401 in 0.48ms
+[2025-05-27 10:36:41] [INFO] (HTTP) @src/http.js:146:21 req-1z 127.0.0.1 GET /api/client -+> 200 in 1.06ms
+[2025-05-27 10:36:43] [INFO] (HTTP) @src/http.js:146:21 req-37 127.0.0.1 GET /api/users/@me -+> 401 in 0.99ms
+[2025-05-27 10:36:43] [INFO] (HTTP) @src/http.js:146:21 req-3b 127.0.0.1 GET /api/users/@me -+> 401 in 0.62ms
+[2025-05-27 10:36:43] [INFO] (HTTP) @src/http.js:146:21 req-3c 127.0.0.1 GET /api/users/@me -+> 401 in 0.32ms
+[2025-05-27 10:36:43] [INFO] (HTTP) @src/http.js:146:21 req-3d 127.0.0.1 GET /api/guilds/1112745 -+> 401 in 0.31ms
+[2025-05-27 10:36:43] [INFO] (HTTP) @src/http.js:146:21 req-3e 127.0.0.1 GET /api/client -+> 200 in 0.45ms
+[2025-05-27 10:36:44] [INFO] (HTTP) @src/http.js:146:21 req-3g 127.0.0.1 GET /api/users/@me -+> 401 in 0.73ms
+[2025-05-27 10:36:44] [INFO] (HTTP) @src/http.js:146:21 req-3i 127.0.0.1 GET /api/client -+> 200 in 0.41ms
+[2025-05-27 10:36:44] [INFO] (HTTP) @src/http.js:146:21 req-3j 127.0.0.1 GET /api/users/@me -+> 401 in 0.34ms
+[2025-05-27 10:36:44] [INFO] (HTTP) @src/http.js:146:21 req-3k 127.0.0.1 GET /api/client -+> 200 in 0.44ms
+[2025-05-27 10:36:46] [INFO] (HTTP) @src/http.js:146:21 req-4r 127.0.0.1 GET /api/users/@me -+> 401 in 0.87ms
+[2025-05-27 10:36:46] [INFO] (HTTP) @src/http.js:146:21 req-4s 127.0.0.1 GET /api/guilds/1112745 -+> 401 in 0.90ms
+[2025-05-27 10:36:46] [INFO] (HTTP) @src/http.js:146:21 req-4x 127.0.0.1 GET /api/users/@me -+> 401 in 0.62ms
+[2025-05-27 10:36:46] [INFO] (HTTP) @src/http.js:146:21 req-4y 127.0.0.1 GET /api/client -+> 200 in 0.67ms
+[2025-05-27 10:37:12] [INFO] (HTTP) @src/http.js:146:21 req-53 127.0.0.1 GET /api/users/@me -+> 401 in 0.88ms
+[2025-05-27 10:37:12] [INFO] (HTTP) @src/http.js:146:21 req-54 127.0.0.1 GET /api/users/@me -+> 401 in 0.70ms
+[2025-05-27 10:37:12] [INFO] (HTTP) @src/http.js:146:21 req-56 127.0.0.1 GET /api/users/@me -+> 401 in 0.80ms
+[2025-05-27 10:37:12] [INFO] (HTTP) @src/http.js:146:21 req-57 127.0.0.1 GET /api/client -+> 200 in 0.82ms
+[2025-05-27 10:37:12] [INFO] (HTTP) @src/http.js:146:21 req-59 127.0.0.1 GET /api/users/@me -+> 401 in 0.62ms
+[2025-05-27 10:37:12] [INFO] (HTTP) @src/http.js:146:21 req-5a 127.0.0.1 GET /api/client -+> 200 in 0.65ms
+[2025-05-27 10:37:25] [INFO] (HTTP) @src/http.js:146:21 req-5c 127.0.0.1 GET /api/users/@me -+> 401 in 0.93ms
+[2025-05-27 10:37:34] [NOTICE] (GLOBAL) @src/index.js:66:6 Received SIGINT
+
+	❯ Discord Tickets by eartharoid
+	❯ Powered by leekslazylogger v6.0.0
+	❯ Log level "info"
+	❯ Node.js v20.19.2 on linux
+	❯ Tuesday, 27 May 2025 at 10:37 AM (UTC) -->
+
+[2025-05-27 10:37:36] [INFO] (GLOBAL) @src/client.js:73:12 0 guilds are banned
+[2025-05-27 10:37:36] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "category" autocompleter
+[2025-05-27 10:37:36] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "references" autocompleter
+[2025-05-27 10:37:36] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "tag" autocompleter
+[2025-05-27 10:37:36] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "ticket" autocompleter
+[2025-05-27 10:37:36] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "claim" button
+[2025-05-27 10:37:36] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "close" button
+[2025-05-27 10:37:36] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "create" button
+[2025-05-27 10:37:36] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "edit" button
+[2025-05-27 10:37:36] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "transcript" button
+[2025-05-27 10:37:36] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "unclaim" button
+[2025-05-27 10:37:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "Create ticket from message" message command
+[2025-05-27 10:37:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "Pin message" message command
+[2025-05-27 10:37:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "add" slash command
+[2025-05-27 10:37:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "claim" slash command
+[2025-05-27 10:37:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "close" slash command
+[2025-05-27 10:37:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "force-close" slash command
+[2025-05-27 10:37:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "help" slash command
+[2025-05-27 10:37:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "move" slash command
+[2025-05-27 10:37:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "new" slash command
+[2025-05-27 10:37:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "priority" slash command
+[2025-05-27 10:37:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "release" slash command
+[2025-05-27 10:37:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "remove" slash command
+[2025-05-27 10:37:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "rename" slash command
+[2025-05-27 10:37:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "tag" slash command
+[2025-05-27 10:37:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "tickets" slash command
+[2025-05-27 10:37:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "topic" slash command
+[2025-05-27 10:37:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "transcript" slash command
+[2025-05-27 10:37:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "transfer" slash command
+[2025-05-27 10:37:36] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "Create ticket for user" user command
+[2025-05-27 10:37:36] [INFO] (MENUS) @src/listeners/menus/componentLoad.js:13:24 Loaded "create" menu
+[2025-05-27 10:37:36] [INFO] (MODALS) @src/listeners/modals/componentLoad.js:13:24 Loaded "feedback" modal
+[2025-05-27 10:37:36] [INFO] (MODALS) @src/listeners/modals/componentLoad.js:13:24 Loaded "questions" modal
+[2025-05-27 10:37:36] [INFO] (MODALS) @src/listeners/modals/componentLoad.js:13:24 Loaded "topic" modal
+[2025-05-27 10:37:37] [SUCCESS] (GLOBAL) @src/listeners/client/ready.js:33:14 Connected to Discord as "Ticket#0394" over 1 shards
+[2025-05-27 10:37:37] [INFO] (PRISMA) @src/client.js:131:46 quaint::pooled Starting a mysql pool with 9 connections.
+[2025-05-27 10:37:37] [INFO] (GLOBAL) @src/lib/sync.js:77:13 Cached ticket count of 0 categories (0 open tickets)
+[2025-05-27 10:37:37] [INFO] (GLOBAL) @src/lib/sync.js:78:13 Loaded 0 active cooldowns
+[2025-05-27 10:37:37] [INFO] (GLOBAL) @src/lib/sync.js:79:13 Closed 0 deleted tickets
+[2025-05-27 10:37:37] [SUCCESS] (HTTP) @src/http.js:191:27 Listening at http://127.0.0.1:8169
+[2025-05-27 10:37:38] [INFO] (GLOBAL) @src/lib/updates.js:8:13 Checking for updates...
+[2025-05-27 10:37:39] [INFO] (GLOBAL) @src/lib/updates.js:26:16 No updates available
+[2025-05-27 10:37:39] [WARN] (GLOBAL) @src/lib/stats.js:72:14 The following error is not important and can be safely ignored
+[2025-05-27 10:37:39] [ERROR] (GLOBAL) @src/lib/stats.js:75:15 An error occurred whilst posting stats: {
+  status: 500,
+  error: 'ValidationError: "guilds[0].messages" must be a number'
+}
+[2025-05-27 10:37:54] [INFO] (HTTP) @src/http.js:146:21 req-2 127.0.0.1 GET /api/users/@me -+> 401 in 7.17ms
+[2025-05-27 10:37:54] [INFO] (HTTP) @src/http.js:146:21 req-4 127.0.0.1 GET /api/users/@me -+> 401 in 0.85ms
+[2025-05-27 10:37:54] [INFO] (HTTP) @src/http.js:146:21 req-5 127.0.0.1 GET /api/client -+> 200 in 96.05ms
+[2025-05-27 10:37:57] [INFO] (HTTP) @src/http.js:146:21 req-1c 127.0.0.1 GET /api/users/@me -+> 401 in 0.71ms
+[2025-05-27 10:37:57] [INFO] (HTTP) @src/http.js:146:21 req-1d 127.0.0.1 GET /api/client -+> 200 in 0.79ms
+[2025-05-27 10:37:57] [INFO] (HTTP) @src/http.js:146:21 req-1f 127.0.0.1 GET /api/users/@me -+> 401 in 0.36ms
+[2025-05-27 10:37:57] [INFO] (HTTP) @src/http.js:146:21 req-1j 127.0.0.1 GET /api/users/@me -+> 401 in 0.35ms
+[2025-05-27 10:37:57] [INFO] (HTTP) @src/http.js:146:21 req-1k 127.0.0.1 GET /api/guilds/1112745 -+> 401 in 0.37ms
+[2025-05-27 10:37:57] [INFO] (HTTP) @src/http.js:146:21 req-1l 127.0.0.1 GET /api/users/@me -+> 401 in 0.47ms
+[2025-05-27 10:37:58] [INFO] (HTTP) @src/http.js:146:21 req-1m 127.0.0.1 GET /api/users/@me -+> 401 in 0.36ms
+[2025-05-27 10:37:58] [INFO] (HTTP) @src/http.js:146:21 req-1n 127.0.0.1 GET /api/client -+> 200 in 0.49ms
+[2025-05-27 10:37:58] [INFO] (HTTP) @src/http.js:146:21 req-1t 127.0.0.1 GET /api/users/@me -+> 401 in 0.76ms
+[2025-05-27 10:37:58] [INFO] (HTTP) @src/http.js:146:21 req-1u 127.0.0.1 GET /api/users/@me -+> 401 in 0.70ms
+[2025-05-27 10:37:58] [INFO] (HTTP) @src/http.js:146:21 req-1v 127.0.0.1 GET /api/client -+> 200 in 0.59ms
+[2025-05-27 10:37:58] [INFO] (HTTP) @src/http.js:146:21 req-1w 127.0.0.1 GET /api/guilds/1112745 -+> 401 in 0.64ms
+[2025-05-27 10:37:58] [INFO] (HTTP) @src/http.js:146:21 req-22 127.0.0.1 GET /api/users/@me -+> 401 in 1.14ms
+[2025-05-27 10:37:58] [INFO] (HTTP) @src/http.js:146:21 req-23 127.0.0.1 GET /api/guilds/1112745 -+> 401 in 1.36ms
+[2025-05-27 10:37:58] [INFO] (HTTP) @src/http.js:146:21 req-24 127.0.0.1 GET /api/users/@me -+> 401 in 0.88ms
+[2025-05-27 10:37:58] [INFO] (HTTP) @src/http.js:146:21 req-25 127.0.0.1 GET /api/client -+> 200 in 0.56ms
+[2025-05-27 10:38:00] [INFO] (HTTP) @src/http.js:146:21 req-32 127.0.0.1 GET /api/users/@me -+> 401 in 0.93ms
+[2025-05-27 10:38:00] [INFO] (HTTP) @src/http.js:146:21 req-33 127.0.0.1 GET /api/guilds/1112745 -+> 401 in 0.93ms
+[2025-05-27 10:38:00] [INFO] (HTTP) @src/http.js:146:21 req-38 127.0.0.1 GET /api/users/@me -+> 401 in 0.84ms
+[2025-05-27 10:38:00] [INFO] (HTTP) @src/http.js:146:21 req-39 127.0.0.1 GET /api/client -+> 200 in 1.23ms
+[2025-05-27 10:38:01] [INFO] (HTTP) @src/http.js:146:21 req-3c 127.0.0.1 GET /auth/login?r=%2F -+> 302 in 1.65ms
+[2025-05-27 10:38:26] [INFO] (HTTP) @src/http.js:146:21 req-3e 127.0.0.1 GET /api/users/@me -+> 401 in 2.01ms
+[2025-05-27 10:38:43] [INFO] (HTTP) @src/http.js:146:21 req-3g 127.0.0.1 GET /api/users/@me -+> 401 in 1.07ms
+[2025-05-27 10:38:43] [INFO] (HTTP) @src/http.js:146:21 req-3i 127.0.0.1 GET /api/users/@me -+> 401 in 0.97ms
+[2025-05-27 10:38:43] [INFO] (HTTP) @src/http.js:146:21 req-3j 127.0.0.1 GET /api/client -+> 200 in 1.21ms
+[2025-05-27 10:38:43] [INFO] (HTTP) @src/http.js:146:21 req-3l 127.0.0.1 GET /api/users/@me -+> 401 in 0.54ms
+[2025-05-27 10:38:43] [INFO] (HTTP) @src/http.js:146:21 req-3n 127.0.0.1 GET /api/users/@me -+> 401 in 0.57ms
+[2025-05-27 10:38:44] [INFO] (HTTP) @src/http.js:146:21 req-3p 127.0.0.1 GET /api/users/@me -+> 401 in 0.57ms
+[2025-05-27 10:38:44] [INFO] (HTTP) @src/http.js:146:21 req-3q 127.0.0.1 GET /api/guilds/1112745 -+> 401 in 0.49ms
+[2025-05-27 10:38:44] [INFO] (HTTP) @src/http.js:146:21 req-3t 127.0.0.1 GET /api/users/@me -+> 401 in 0.36ms
+[2025-05-27 10:38:44] [INFO] (HTTP) @src/http.js:146:21 req-3w 127.0.0.1 GET /api/users/@me -+> 401 in 0.41ms
+[2025-05-27 10:38:44] [INFO] (HTTP) @src/http.js:146:21 req-3x 127.0.0.1 GET /api/client -+> 200 in 0.46ms
+[2025-05-27 10:38:44] [INFO] (HTTP) @src/http.js:146:21 req-3y 127.0.0.1 GET /api/guilds/1112745 -+> 401 in 0.49ms
+[2025-05-27 10:38:44] [INFO] (HTTP) @src/http.js:146:21 req-3z 127.0.0.1 GET /api/client -+> 200 in 0.36ms
+[2025-05-27 10:38:44] [INFO] (HTTP) @src/http.js:146:21 req-40 127.0.0.1 GET /api/users/@me -+> 401 in 0.28ms
+[2025-05-27 10:38:44] [INFO] (HTTP) @src/http.js:146:21 req-41 127.0.0.1 GET /api/client -+> 200 in 0.31ms
+[2025-05-27 10:38:53] [NOTICE] (GLOBAL) @src/index.js:66:6 Received SIGINT
+
+	❯ Discord Tickets by eartharoid
+	❯ Powered by leekslazylogger v6.0.0
+	❯ Log level "info"
+	❯ Node.js v20.19.2 on linux
+	❯ Tuesday, 27 May 2025 at 10:39 AM (UTC) -->
+
+[2025-05-27 10:39:42] [INFO] (GLOBAL) @src/client.js:73:12 0 guilds are banned
+[2025-05-27 10:39:42] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "category" autocompleter
+[2025-05-27 10:39:42] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "references" autocompleter
+[2025-05-27 10:39:42] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "tag" autocompleter
+[2025-05-27 10:39:42] [INFO] (AUTOCOMPLETE) @src/listeners/autocomplete/componentLoad.js:13:24 Loaded "ticket" autocompleter
+[2025-05-27 10:39:42] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "claim" button
+[2025-05-27 10:39:42] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "close" button
+[2025-05-27 10:39:42] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "create" button
+[2025-05-27 10:39:42] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "edit" button
+[2025-05-27 10:39:42] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "transcript" button
+[2025-05-27 10:39:42] [INFO] (BUTTONS) @src/listeners/buttons/componentLoad.js:13:24 Loaded "unclaim" button
+[2025-05-27 10:39:42] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "Create ticket from message" message command
+[2025-05-27 10:39:42] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "Pin message" message command
+[2025-05-27 10:39:42] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "add" slash command
+[2025-05-27 10:39:42] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "claim" slash command
+[2025-05-27 10:39:42] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "close" slash command
+[2025-05-27 10:39:42] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "force-close" slash command
+[2025-05-27 10:39:42] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "help" slash command
+[2025-05-27 10:39:42] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "move" slash command
+[2025-05-27 10:39:42] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "new" slash command
+[2025-05-27 10:39:42] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "priority" slash command
+[2025-05-27 10:39:42] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "release" slash command
+[2025-05-27 10:39:42] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "remove" slash command
+[2025-05-27 10:39:42] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "rename" slash command
+[2025-05-27 10:39:42] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "tag" slash command
+[2025-05-27 10:39:42] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "tickets" slash command
+[2025-05-27 10:39:42] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "topic" slash command
+[2025-05-27 10:39:42] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "transcript" slash command
+[2025-05-27 10:39:42] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "transfer" slash command
+[2025-05-27 10:39:42] [INFO] (COMMANDS) @src/listeners/commands/componentLoad.js:18:24 Loaded "Create ticket for user" user command
+[2025-05-27 10:39:42] [INFO] (MENUS) @src/listeners/menus/componentLoad.js:13:24 Loaded "create" menu
+[2025-05-27 10:39:42] [INFO] (MODALS) @src/listeners/modals/componentLoad.js:13:24 Loaded "feedback" modal
+[2025-05-27 10:39:42] [INFO] (MODALS) @src/listeners/modals/componentLoad.js:13:24 Loaded "questions" modal
+[2025-05-27 10:39:42] [INFO] (MODALS) @src/listeners/modals/componentLoad.js:13:24 Loaded "topic" modal
+[2025-05-27 10:39:44] [SUCCESS] (GLOBAL) @src/listeners/client/ready.js:33:14 Connected to Discord as "Ticket#0394" over 1 shards
+[2025-05-27 10:39:44] [INFO] (PRISMA) @src/client.js:131:46 quaint::pooled Starting a mysql pool with 9 connections.
+[2025-05-27 10:39:44] [INFO] (GLOBAL) @src/lib/sync.js:77:13 Cached ticket count of 0 categories (0 open tickets)
+[2025-05-27 10:39:44] [INFO] (GLOBAL) @src/lib/sync.js:78:13 Loaded 0 active cooldowns
+[2025-05-27 10:39:44] [INFO] (GLOBAL) @src/lib/sync.js:79:13 Closed 0 deleted tickets
+[2025-05-27 10:39:44] [SUCCESS] (HTTP) @src/http.js:191:27 Listening at http://127.0.0.1:8169
+[2025-05-27 10:39:45] [INFO] (GLOBAL) @src/lib/updates.js:8:13 Checking for updates...
+[2025-05-27 10:39:45] [INFO] (GLOBAL) @src/lib/updates.js:26:16 No updates available
+[2025-05-27 10:39:45] [WARN] (GLOBAL) @src/lib/stats.js:72:14 The following error is not important and can be safely ignored
+[2025-05-27 10:39:46] [ERROR] (GLOBAL) @src/lib/stats.js:75:15 An error occurred whilst posting stats: {
+  status: 500,
+  error: 'ValidationError: "guilds[0].messages" must be a number'
+}
+[2025-05-27 10:39:51] [INFO] (HTTP) @src/http.js:146:21 req-1 127.0.0.1 GET /api/guilds/1112745 -+> 401 in 8.02ms
+[2025-05-27 10:39:51] [INFO] (HTTP) @src/http.js:146:21 req-2 127.0.0.1 GET /api/users/@me -+> 401 in 0.94ms
+[2025-05-27 10:39:51] [INFO] (HTTP) @src/http.js:146:21 req-3 127.0.0.1 GET /api/users/@me -+> 401 in 0.76ms
+[2025-05-27 10:39:51] [INFO] (HTTP) @src/http.js:146:21 req-4 127.0.0.1 GET /api/guilds/1112745 -+> 401 in 0.53ms
+[2025-05-27 10:39:51] [INFO] (HTTP) @src/http.js:146:21 req-5 127.0.0.1 GET /api/users/@me -+> 401 in 0.68ms
+[2025-05-27 10:39:51] [INFO] (HTTP) @src/http.js:146:21 req-6 127.0.0.1 GET /api/users/@me -+> 401 in 0.45ms
+[2025-05-27 10:39:51] [INFO] (HTTP) @src/http.js:146:21 req-7 127.0.0.1 GET /api/client -+> 200 in 86.66ms
+[2025-05-27 10:39:51] [INFO] (HTTP) @src/http.js:146:21 req-8 127.0.0.1 GET /api/client -+> 200 in 90.95ms
+[2025-05-27 10:39:51] [INFO] (HTTP) @src/http.js:146:21 req-9 127.0.0.1 GET /api/users/@me -+> 401 in 0.50ms
+[2025-05-27 10:39:51] [INFO] (HTTP) @src/http.js:146:21 req-a 127.0.0.1 GET /api/client -+> 200 in 0.66ms
+[2025-05-27 10:39:52] [INFO] (HTTP) @src/http.js:146:21 req-b 127.0.0.1 GET /api/users/@me -+> 401 in 0.97ms
+[2025-05-27 10:39:52] [INFO] (HTTP) @src/http.js:146:21 req-c 127.0.0.1 GET /api/guilds/1112745 -+> 401 in 0.70ms
+[2025-05-27 10:39:52] [INFO] (HTTP) @src/http.js:146:21 req-d 127.0.0.1 GET /api/users/@me -+> 401 in 0.89ms
+[2025-05-27 10:39:52] [INFO] (HTTP) @src/http.js:146:21 req-e 127.0.0.1 GET /api/guilds/1112745 -+> 401 in 0.82ms
+[2025-05-27 10:39:52] [INFO] (HTTP) @src/http.js:146:21 req-f 127.0.0.1 GET /api/users/@me -+> 401 in 0.51ms
+[2025-05-27 10:39:52] [INFO] (HTTP) @src/http.js:146:21 req-g 127.0.0.1 GET /api/users/@me -+> 401 in 0.58ms
+[2025-05-27 10:39:52] [INFO] (HTTP) @src/http.js:146:21 req-h 127.0.0.1 GET /api/client -+> 200 in 0.70ms
+[2025-05-27 10:39:52] [INFO] (HTTP) @src/http.js:146:21 req-i 127.0.0.1 GET /api/client -+> 200 in 0.55ms
+[2025-05-27 10:39:52] [INFO] (HTTP) @src/http.js:146:21 req-j 127.0.0.1 GET /api/users/@me -+> 401 in 0.55ms
+[2025-05-27 10:39:52] [INFO] (HTTP) @src/http.js:146:21 req-k 127.0.0.1 GET /api/client -+> 200 in 0.44ms
+[2025-05-27 10:39:53] [INFO] (HTTP) @src/http.js:146:21 req-l 127.0.0.1 GET /api/users/@me -+> 401 in 0.76ms
+[2025-05-27 10:39:53] [INFO] (HTTP) @src/http.js:146:21 req-m 127.0.0.1 GET /api/guilds/1112745 -+> 401 in 0.48ms
+[2025-05-27 10:39:53] [INFO] (HTTP) @src/http.js:146:21 req-n 127.0.0.1 GET /api/users/@me -+> 401 in 0.47ms
+[2025-05-27 10:39:53] [INFO] (HTTP) @src/http.js:146:21 req-o 127.0.0.1 GET /api/guilds/1112745 -+> 401 in 0.43ms
+[2025-05-27 10:39:53] [INFO] (HTTP) @src/http.js:146:21 req-p 127.0.0.1 GET /api/users/@me -+> 401 in 0.55ms
+[2025-05-27 10:39:53] [INFO] (HTTP) @src/http.js:146:21 req-q 127.0.0.1 GET /api/users/@me -+> 401 in 0.40ms
+[2025-05-27 10:39:53] [INFO] (HTTP) @src/http.js:146:21 req-r 127.0.0.1 GET /api/client -+> 200 in 0.41ms
+[2025-05-27 10:39:53] [INFO] (HTTP) @src/http.js:146:21 req-s 127.0.0.1 GET /api/client -+> 200 in 0.42ms
+[2025-05-27 10:39:53] [INFO] (HTTP) @src/http.js:146:21 req-t 127.0.0.1 GET /auth/login?r=%2F -+> 302 in 2.60ms
+[2025-05-27 10:39:59] [INFO] (HTTP) @src/http.js:146:21 req-u 127.0.0.1 GET /auth/callback?code=WfB3bLyO27Fon0cd61uCdBP3KLb0aa&state=f29ebcff815c0475 -+> 200 in 885.48ms
+[2025-05-27 10:39:59] [INFO] (HTTP) @src/http.js:146:21 req-v 127.0.0.1 GET /api/users/@me -+> 401 in 0.98ms
+[2025-05-27 10:39:59] [INFO] (HTTP) @src/http.js:146:21 req-w 127.0.0.1 GET /api/users/@me -+> 401 in 0.94ms
+[2025-05-27 10:39:59] [INFO] (HTTP) @src/http.js:146:21 req-x 127.0.0.1 GET /api/client -+> 200 in 1.31ms
+[2025-05-27 10:40:00] [INFO] (HTTP) @src/http.js:146:21 req-y 127.0.0.1 GET /api/users/@me -+> 401 in 1.45ms
+[2025-05-27 10:40:00] [INFO] (HTTP) @src/http.js:146:21 req-z 127.0.0.1 GET /api/users/@me -+> 401 in 1.27ms
+[2025-05-27 10:40:00] [INFO] (HTTP) @src/http.js:146:21 req-10 127.0.0.1 GET /api/guilds/1112745 -+> 401 in 0.74ms
+[2025-05-27 10:40:00] [INFO] (HTTP) @src/http.js:146:21 req-11 127.0.0.1 GET /api/users/@me -+> 401 in 0.60ms
+[2025-05-27 10:40:00] [INFO] (HTTP) @src/http.js:146:21 req-12 127.0.0.1 GET /api/client -+> 200 in 0.54ms
+[2025-05-27 10:40:00] [INFO] (HTTP) @src/http.js:146:21 req-13 127.0.0.1 GET /api/guilds/1112745 -+> 401 in 0.40ms
+[2025-05-27 10:40:00] [INFO] (HTTP) @src/http.js:146:21 req-14 127.0.0.1 GET /api/users/@me -+> 401 in 0.34ms
+[2025-05-27 10:40:00] [INFO] (HTTP) @src/http.js:146:21 req-15 127.0.0.1 GET /api/client -+> 200 in 0.36ms
+[2025-05-27 10:40:02] [INFO] (HTTP) @src/http.js:146:21 req-16 127.0.0.1 GET /auth/login?r=%2F -+> 302 in 1.02ms
+[2025-05-27 10:40:06] [INFO] (HTTP) @src/http.js:146:21 req-17 127.0.0.1 GET /auth/callback?code=SajDIjtyUlNyymbMZ9IA7jYsK9DG4w&state=5979833bde445f58 -+> 200 in 807.69ms
+[2025-05-27 10:40:06] [INFO] (HTTP) @src/http.js:146:21 req-18 127.0.0.1 GET /api/users/@me -+> 401 in 1.14ms
+[2025-05-27 10:40:06] [INFO] (HTTP) @src/http.js:146:21 req-19 127.0.0.1 GET /api/users/@me -+> 401 in 1.26ms
+[2025-05-27 10:40:06] [INFO] (HTTP) @src/http.js:146:21 req-1a 127.0.0.1 GET /api/client -+> 200 in 1.05ms
+[2025-05-27 10:40:07] [INFO] (HTTP) @src/http.js:146:21 req-1b 127.0.0.1 GET /api/users/@me -+> 401 in 1.13ms
+[2025-05-27 10:40:07] [INFO] (HTTP) @src/http.js:146:21 req-1c 127.0.0.1 GET /api/users/@me -+> 401 in 0.54ms
+[2025-05-27 10:40:07] [INFO] (HTTP) @src/http.js:146:21 req-1d 127.0.0.1 GET /api/users/@me -+> 401 in 0.43ms
+[2025-05-27 10:40:07] [INFO] (HTTP) @src/http.js:146:21 req-1e 127.0.0.1 GET /api/guilds/1112745 -+> 401 in 0.45ms
+[2025-05-27 10:40:07] [INFO] (HTTP) @src/http.js:146:21 req-1f 127.0.0.1 GET /api/client -+> 200 in 0.53ms
+[2025-05-27 10:40:07] [INFO] (HTTP) @src/http.js:146:21 req-1g 127.0.0.1 GET /api/guilds/1112745 -+> 401 in 0.40ms
+[2025-05-27 10:40:07] [INFO] (HTTP) @src/http.js:146:21 req-1h 127.0.0.1 GET /api/users/@me -+> 401 in 0.27ms
+[2025-05-27 10:40:07] [INFO] (HTTP) @src/http.js:146:21 req-1i 127.0.0.1 GET /api/client -+> 200 in 0.32ms
+[2025-05-27 10:40:50] [INFO] (HTTP) @src/http.js:146:21 req-1k 127.0.0.1 GET /api/users/@me -+> 401 in 2.00ms
+[2025-05-27 10:40:50] [INFO] (HTTP) @src/http.js:146:21 req-1l 127.0.0.1 GET /api/client -+> 200 in 1.60ms
+[2025-05-27 10:40:50] [INFO] (HTTP) @src/http.js:146:21 req-1n 127.0.0.1 GET /api/users/@me -+> 401 in 0.57ms
+[2025-05-27 10:40:50] [INFO] (HTTP) @src/http.js:146:21 req-1o 127.0.0.1 GET /api/client -+> 200 in 0.76ms
