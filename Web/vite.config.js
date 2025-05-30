@@ -11,26 +11,26 @@ const config = {
 		})
 	],
 	server: {
-		host: 'ticket.discord.zenkho.top',
+		host: '127.0.0.1',
 		proxy: {
 			'/api': {
-				target: 'http://localhost:8169',
+				target: 'http://127.0.0.1',
 				changeOrigin: true
 			},
 			'/attachments': {
-				target: 'http://localhost:8169',
+				target: 'http://127.0.0.1',
 				changeOrigin: true
 			},
 			'/auth': {
-				target: 'http://localhost:8169',
+				target: 'http://127.0.0.1',
 				changeOrigin: true
 			},
 			'/avatars': {
-				target: 'http://localhost:8169',
+				target: 'http://127.0.0.1',
 				changeOrigin: true
 			},
 			'/invite': {
-				target: 'http://localhost:8169',
+				target: 'http://127.0.0.1',
 				changeOrigin: true
 			}
 		}
